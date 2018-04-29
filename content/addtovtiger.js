@@ -37,7 +37,7 @@ function vget_mailfrmaddrs() {
 	// https://github.com/protz/GMail-Conversation-View/blob/master/modules/message.js#L891
 	// Set the charset of the iFrame content. Thanks to Jonathan Protzenko for the cluebat.
 	let cv = iframe.docShell.contentViewer;
-    cv.QueryInterface(Components.interfaces.nsIMarkupDocumentViewer);
+	try { cv.QueryInterface(Components.interfaces.nsIMarkupDocumentViewer);} catch (e) {/*not supported in newer version*/}
     cv.hintCharacterSet = "UTF-8";
     cv.hintCharacterSetSource = 11;
 	
@@ -255,25 +255,13 @@ function vaddemailtovtigerCRM(){
 		factory.get("Emails",function(res){
 			var fields = res['fields'];
 			var format = 'yyyy-mm-dd';
-			for(var i=0;i<fields.length;++i){
-				if(fields[i]['name'] == 'date_start'){
-					format = fields[i]['type']['format'];
-				}
-			}
-			function getFormatedDate(format,date){
+			function getFormatedDate(date){
 				var displayDate;
-				var list = format.split('-');
 				var dd = (date.getDate().toString().length ==1)? '0'+date.getDate(): date.getDate();
 				//The value returned by getMonth() is a number between 0 and 11
-				var mm = (date.getMonth().toString().length ==1)? '0'+(date.getMonth()+1): date.getMonth()+1;
+				var mm = ((date.getMonth()+1).toString().length ==1)? '0'+(date.getMonth()+1): date.getMonth()+1;
 				var yy = date.getFullYear();
-				if(format == 'dd-mm-yyyy'){
-					displayDate = dd+'-'+mm+'-'+yy;
-				}else if(format == 'mm-dd-yyyy'){
-					displayDate = mm+'-'+dd+'-'+yy;
-				}else if(format == 'yyyy-mm-dd'){		
-					displayDate = yy+'-'+mm+'-'+dd;
-				}
+				displayDate = yy+'-'+mm+'-'+dd;
 				return displayDate;
 			}
 			
@@ -285,7 +273,7 @@ function vaddemailtovtigerCRM(){
 			if(window.arguments[0].cc){
 				email["ccmail"] = window.arguments[0].cc;
 			}
-			email["date_start"] = getFormatedDate(format,date);
+			email["date_start"] = getFormatedDate(date);
 			email["saved_toid"] = document.getElementById('lstcontactinfo').selectedItem.childNodes[emailNodeIndex].getAttribute('label');
 			email["subject"] = email_subject;
 			
