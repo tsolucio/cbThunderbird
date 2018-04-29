@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://communicator/skin/pref/pref.css" type="text/css"?>
+<!--
+*********************************************************************************
+* The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+*
+********************************************************************************
+-->
+<!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&vtiger.impab.wnd.title;"
+	id="impwizard"
+	onload="load_ab();"
+	style="padding-top:0px; padding-left:0px; padding-right:0px;">
+
+<script type="application/x-javascript" src="chrome://messenger/content/addressbook/addressbook.js"/>
+<script type="application/x-javascript" src="chrome://messenger/content/addressbook/abCommon.js"/>
+<script type="application/x-javascript" src="chrome://messenger/content/addressbook/abCardOverlay.js"/>
+<script type="application/x-javascript" src="chrome://vtiger/content/json.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/md5.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/entitieshandler.namespaced.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/vtiger_lib.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/vtigercrm_thunderbird.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/importab.js"/>
+<script type="application/x-javascript" src="chrome://vtiger/content/vtigerab.js"/>
+	
+<image src="chrome://vtiger/skin/import_top.png"/>
+
+<vbox id="tabbedui" style="margin:7px;">
+	<groupbox flex="1">
+ 		<caption label="&vtiger.impab.lbl.main;"/>
+  		<hbox>
+	 		<vbox valign="middle" align="right">
+		 		<label value="&vtiger.impab.lbl.target;" tooltiptext="&vtiger.impab.mnulist.tt;"/>
+	 		</vbox>
+	 		<vbox>
+		 		<menulist id="impablist" editable="true" tooltiptext="&vtiger.impab.mnulist.tt;">
+					<menupopup id="impopup" ></menupopup>
+		 		</menulist>
+			</vbox>
+			<spacer flex="1"/>
+ 		</hbox>
+ 		<hbox>
+ 			<spacer flex="1"/>
+			<vbox>
+				<label hidden="true" id="lblimpcontacts" value="&vtiger.impab.prog.lbl.impcon;" />
+				<progressmeter id="impprog" mode="determined" value="0" />
+			</vbox>
+			<hbox id="commandBar" flex="1" align="right" valign="bottom" style="margin-top:8px;">
+				<button id="impbutton" label="&vtiger.impab.btn.lbl.impcon;" tooltiptext="&vtiger.impab.btn.tt.impcon;" oncommand="create_vtigerABURL();"/>
+				<button label="&vtiger.impab.btn.lbl.cancel;" tooltiptext="&vtiger.impab.btn.tt.cancel;" oncommand="window.close();"/>
+			</hbox>
+		</hbox>
+	</groupbox>
+</vbox>
+</window>

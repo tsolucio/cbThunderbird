@@ -1,0 +1,142 @@
+<!-- Main Toolbar Overlay -->
+<!ENTITY vtiger.tb.btn.lbl.AddMsgTovtiger "Iktatás a vtiger-be">
+<!ENTITY vtiger.tb.btn.AddMsgTovtiger.tt "E-mail iktatása a vtiger CRM rendszerbe">
+<!ENTITY vtiger.tb.btn.lbl.CreateLeadContact "Új Jelölt/Kapcsolat">
+<!ENTITY vtiger.tb.btn.CreateLeadContact.tt "Új vtiger CRM Jelölt vagy Kapcsolat létrehozása">
+
+<!-- Tabbar Overlay -->
+<!ENTITY vtiger.tb.btn.Openvtiger.tt "vtiger megnyitása egy fülben">
+
+<!-- Tools Menu Overlay -->
+<!ENTITY vtiger.tool.menu.lbl.config "vtiger CRM beállítások...">
+<!ENTITY vtiger.tool.menu.acckey.config "v">
+<!ENTITY vtiger.tool.menu.lbl.add "E-mail iktatása a vtiger CRM-be">
+<!ENTITY vtiger.tool.menu.acckey.add "d">
+<!ENTITY vtiger.tool.menu.lbl.clc "Új Jelölt vagy Kapcsolat létrehozása...">
+<!ENTITY vtiger.tool.menu.acckey.clc "c">
+
+<!-- Added to vtiger Column Header -->
+<!ENTITY vtiger.col.hdr.lbl.AddedTovtiger "Iktatva a vtiger CRM-be">
+<!ENTITY vtiger.col.hdr.txt.AddedTovtiger.tt "Kattintson ide, hogy rendezze az e-maileket az alapján, hogy iktatásra kerültek-e a vtiger CRM-be">
+
+<!-- Mail Context Menu Overlay -->
+<!ENTITY vtiger.mcm.menu.lbl.add "E-mail iktatása a vtiger CRM-hez">
+<!ENTITY vtiger.mcm.menu.lbl.clc "Új Jelölt vagy Kapcsolat létrehozása...">
+
+<!-- Status Bar -->
+<!ENTITY vtiger.sb.pnl.lbl.default "vtigerCRM: Off-line">
+<!ENTITY vtiger.sb.pnl.default.tt "vtiger CRM Státusz üzenet">
+
+<!-- Settings Dialogue Window -->
+<!ENTITY vtiger.sd.wnd.title "vtigerCRM - Konfigurációs beállítások">
+<!ENTITY vtiger.sd.lbl.main "vtigerCRM - Konfigurációs beállítások">
+<!ENTITY vtiger.sd.lbl.username "Felhasználónév:">
+<!ENTITY vtiger.sd.txt.username.tt "Adja meg az Ön vtiger felhasználónevét">
+<!ENTITY vtiger.sd.lbl.accesskey "Hozzáférési kulcs:">
+<!ENTITY vtiger.sd.txt.accesskey.tt "Adja meg az Ön Hozzáférési kulcsát. Ezt megtalálja a 'Beállításaim -> Haladó Felhasználói Opciók' részben">
+<!ENTITY vtiger.sd.lbl.url "URL:">
+<!ENTITY vtiger.sd.txt.url.tt "Adja meg a fő URL-t, amit használ a vtiger CRM telepítés eléréséhez">
+<!ENTITY vtiger.sd.lbl.example "(pl., http://az-en-crm-em.hu)">
+<!ENTITY vtiger.sd.btn.save "Mentés">
+<!ENTITY vtiger.sd.btn.save.tt "Az Ön adatainak mentése és belépés a vtiger-be">
+<!ENTITY vtiger.sd.btn.cancel "Mégsem">
+<!ENTITY vtiger.sd.btn.cancel.tt "Az ablak becsukása módosított adatok mentése nélkül">
+
+<!-- Add Message Dialogue Window -->
+<!ENTITY vtiger.am.wnd.title "E-mail iktatása a vtiger CRM-be">
+<!ENTITY vtiger.am.tab.lbl.add "E-mail iktatása">
+<!ENTITY vtiger.am.tab.lbl.edit "E-mail szerkesztése">
+<!ENTITY vtiger.am.cap.lbl.subject "Tárgy sor">
+<!ENTITY vtiger.am.txt.subject.tt "Az e-mail tárgy sora. Szükség esetén szerkeszthető is."> 
+<!ENTITY vtiger.am.cap.lbl.search "Válassza ki a modult, amiben keresni akar">
+<!ENTITY vtiger.am.radio.lbl.contacts "Kapcsolatok">
+<!ENTITY vtiger.am.radio.contacts.tt "Válassza, ha a vtiger Kapcsolatok modulban akar keresni">
+<!ENTITY vtiger.am.radio.lbl.leads "Jelöltek">
+<!ENTITY vtiger.am.radio.leads.tt "Válassza, ha a vtiger Jelöltek modulban akar keresni">
+<!ENTITY vtiger.am.txt.search.tt "E-mail vagy név, ami alapján keresni lehet a vtiger-ben">
+<!ENTITY vtiger.am.btn.lbl.search "Keresés">
+<!ENTITY vtiger.am.lst.cap.lbl.select "Válassza ki azt a rekordot, amihez hozzá kívánja rendelni ezt az e-mailt">
+<!ENTITY vtiger.am.lst.hdr.lbl.type "Típus">
+<!ENTITY vtiger.am.lst.hdr.lbl.name "Teljes név">
+<!ENTITY vtiger.am.lst.hdr.lbl.co "Cégnév">
+<!ENTITY vtiger.am.lst.hdr.lbl.email "E-mail cím">
+<!ENTITY vtiger.am.txt.msg.tt "Az üzenet tartalma. Szerkeszthető is, amennyiben ezt óhajtja.">
+<!ENTITY vtiger.am.btn.lbl.add "Iktatás a vtiger CRM-be">
+<!ENTITY vtiger.am.btn.add.tt "Az üzenet mentése a kiválasztott Kapcsolathoz vagy Jelölthöz">
+<!ENTITY vtiger.am.btn.lbl.cancel "Mégsem">
+<!ENTITY vtiger.am.btn.cancel.tt "Az ablak becsukása anélkül, hogy az üzenetet mentenénk a vtiger CRM-be">
+
+<!-- Address Book Toolbar -->
+<!ENTITY vtiger.abtb.btn.lbl.impcon "Kapcsolat import">
+<!ENTITY vtiger.abtb.btn.tt.impcon "Kapcsolatok importálása a vtiger CRM-ből">
+<!ENTITY vtiger.abtb.btn.lbl.expcon "Kapcsolat export">
+<!ENTITY vtiger.abtb.btn.tt.expcon "Kapcsolatok exportálása a vtiger CRM-be">
+<!ENTITY vtiger.abtb.btn.lbl.addcon "> Kapcsolat">
+<!ENTITY vtiger.abtb.btn.tt.addcon "Kapcsolat(ok) hozzáadása a vtiger CRM-hez">
+<!ENTITY vtiger.abtb.btn.lbl.addlead "> Jelölt">
+<!ENTITY vtiger.abtb.btn.tt.addlead "Jelölt(ek) hozzáadása a vtiger CRM-hez">
+
+<!-- Address Book Menu -->
+<!ENTITY vtiger.ab.menu.lbl.import "Importálás a vtiger CRM-ből...">
+<!ENTITY vtiger.ab.menu.acckey.import "p">
+<!ENTITY vtiger.ab.menu.lbl.export "Exportálás a vtiger CRM-be...">
+<!ENTITY vtiger.ab.menu.acckey.export "x">
+
+<!-- Import Address Book Dialogue Window -->
+<!ENTITY vtiger.impab.wnd.title "Importálás a vtiger CRM-ből">
+<!ENTITY vtiger.impab.lbl.main "Kapcsolatok importálása a vtiger CRM-ből">
+<!ENTITY vtiger.impab.lbl.target "Válassza ki a cél Címjegyzéket:">
+<!ENTITY vtiger.impab.mnulist.tt "Válasszon ki egy létező Címjegyzéket vagy hozzon létre egy újat">  
+<!ENTITY vtiger.impab.prog.lbl.impcon "Kapcsolatok importálása...">
+<!ENTITY vtiger.impab.btn.lbl.impcon "Importálás">
+<!ENTITY vtiger.impab.btn.tt.impcon "Vtiger Kapcsolatok importálása a kiválasztott Címjegyzékbe">
+<!ENTITY vtiger.impab.btn.lbl.cancel "Mégsem">
+<!ENTITY vtiger.impab.btn.tt.cancel "Az importálás elvetése és az ablak bezárása">
+
+<!-- Export Address Book Dialogue Window -->
+<!ENTITY vtiger.expab.wnd.title "Exportálás a vtiger CRM-be">
+<!ENTITY vtiger.expab.lbl.main "Kapcsolatok exportálása a vtiger CRM-be">
+<!ENTITY vtiger.expab.lbl.target "Válassza ki a Címjegyzéket:">
+<!ENTITY vtiger.expab.mnulist.tt "Válasszon ki egy létező Címjegyzéket vagy hozzon létre egy újat">
+<!ENTITY vtiger.expab.prog.lbl.expcon "Kapcsolatok exportálása...">
+<!ENTITY vtiger.expab.btn.lbl.expcon "Exportálás">
+<!ENTITY vtiger.expab.btn.tt.expcon "A kiválasztott Címjegyzék exportálása a vtiger Kapcsolatok modulba. Megjegyzés: A Cégnév információt figyelmen kívül hagyjuk, ha a cég még nincs rögzítve a CRM-ben.">
+<!ENTITY vtiger.expab.btn.lbl.cancel "Mégsem">
+<!ENTITY vtiger.expab.btn.tt.cancel "Az exportálás elvetése és az ablak bezárása">
+
+<!-- Preferences Settings Window -->
+<!ENTITY vtiger.vtiger-prefs.wnd.title "Beállítások">
+<!ENTITY vtiger.vtiger-prefs.chkbox.lbl.tagging "Automatikus címkézés engedélyezve">
+<!ENTITY vtiger.vtiger-prefs.chkbox.tt.tagging "Válassza ki ezt, hogy engedélyezze az e-mailek automatikus címkézését, mikor iktatásra kerülnek a vtiger CRM-be">
+
+<!-- Create New Lead/Contact Window -->
+<!ENTITY vtiger.clc.wnd.title "Új Jelölt vagy Kapcsolat létrehozása">
+<!ENTITY vtiger.clc.tab.lbl.newLead "Új Jelölt">
+<!ENTITY vtiger.clc.tab.lbl.newContact "Új Kapcsolat">
+<!ENTITY vtiger.clc.cap.lbl.commonFields "Közös mezők">
+<!ENTITY vtiger.clc.lbl.value.firstName "Keresztnév:">
+<!ENTITY vtiger.clc.txt.firstName.tt "Keresztnév - nem kötelező">
+<!ENTITY vtiger.clc.lbl.value.lastName "Vezetéknév:">
+<!ENTITY vtiger.clc.txt.lastName.tt "Vezetéknév - kötelező">
+<!ENTITY vtiger.clc.lbl.value.email "E-mail cím:">
+<!ENTITY vtiger.clc.txt.email.tt "E-mail cím - nem kötelező">
+<!ENTITY vtiger.clc.lbl.value.phone "Telefon:">
+<!ENTITY vtiger.clc.txt.phone.tt "Telefon szám - nem kötelező">
+<!ENTITY vtiger.clc.lbl.value.notes "Megjegyzés:">
+<!ENTITY vtiger.clc.txt.notes.tt "Megjegyzés, feljegyzés stb. - nem kötelező">
+<!ENTITY vtiger.clc.cap.lbl.co "Cégnév az Új Jelöltnek - általában kötelező. Ellenőrizd a vtiger telepítésed!">
+<!ENTITY vtiger.clc.lbl.value.co "Cégnév:">
+<!ENTITY vtiger.clc.txt.co.tt "Cégnév - általában kötelező">
+<!ENTITY vtiger.clc.btn.lbl.cl "Új Jelölt létrehozása">
+<!ENTITY vtiger.clc.btn.cl.tt "Új Jelölt létrehozása az alább megadott adatokkal">
+<!ENTITY vtiger.clc.btn.lbl.cancel "Mégsem">
+<!ENTITY vtiger.clc.btn.cancel.tt "Mégsem és az ablak bezárása">
+<!ENTITY vtiger.clc.cap.lbl.acc "Válassz ki egy céget, hogy összekapcsold ezzel a Kapcsolattal - nem kötelező">
+<!ENTITY vtiger.clc.lbl.value.acc "Cégnév:">
+<!ENTITY vtiger.clc.txt.acc.tt "A cégnév megkereséséhez adj meg egy szöveg töredéket - nem kötelező">
+<!ENTITY vtiger.clc.btn.lbl.acc "Cégnév keresése">
+<!ENTITY vtiger.clc.btn.acc.tt "Keresés a vtiger-ben rögzített Cégnevek között">
+<!ENTITY vtiger.clc.lst.hdr.lbl.acc "Cégnév">
+<!ENTITY vtiger.clc.lst.acc.tt "Válassz ki egy Cégnevet, amit össze kívánsz kapcsolni az új Kapcsolattal">
+<!ENTITY vtiger.clc.btn.lbl.cc "Új Kapcsolat létrehozása">
+<!ENTITY vtiger.clc.btn.cc.tt "Új Kapcsolat létrehozása az alább megadott adatokkal">

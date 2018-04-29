@@ -1,0 +1,338 @@
+vtiger Thunderbird 3 extension - Changelog
+------------------------------------------
+0.510
+2013-09-19
+Fixes to support new version of Thunderbird 24.0
+
+0.509
+2012-11-15
+Fixed bug #372 which prevent adding a message to vtiger if the email address
+had no associated name component <> in the header.
+
+0.508
+2012-01-30
+New release to support the next version of Thunderbird (10) which is released 
+31/01/2012. This was a LTS release and Mozilla changed the way the updates 
+were handled so we don't have to update the extension everytime there is a new
+TB release.
+
+0.507
+2011-12-19
+Included the French Language translation kindly provided by Boris CLEMENT. 
+Many thanks.
+Minor changes to support Thunderbird 9.
+
+0.506
+2011-11-08
+Minor change to allow the extension to work in Thunderbird 8
+
+0.505
+2011-09-27
+
+Included the Russian Language translation kindly provided by Istvan, Thanks.   
+Minor change to allow the extension to work in Thunderbird 7
+
+0.504
+2011-08-15
+
+Minor change to allow the extension to work in Thunderbird 6
+
+
+0.503
+2011-06-27
+
+Minor change to allow the extension to work in Thunderbird 5
+
+0.502
+2010-12-01
+
+Another minor update to fix a problem in the Portuguese language translation.
+
+* Fixed charset error in the locale/pt-BR/vtiger.properties file that crept
+  into 0.5. The file was in ISO-8859-15. It should have been in UTF-8
+
+
+0.501
+2010-12-01
+
+A very minor update to fix a typo in the Italian language translation.
+
+* Fixed syntax error in the locale/it-IT/vtiger.dtd file that crept into 0.5
+
+
+0.5
+2010-11-26
+
+This release introduces several new features along with a fairly extensive
+re-work of the way the dialogue forms are populated and general re-factoring
+of some of the underlying code; hopefully this particular work will not
+introduce any new errors. It should help with general maintenance and new
+feature additions going forward.
+
+0.5 introduces a new feature to create a new Lead or Contact from within 
+Thunderbird. A new dialogue enables the user to provide basic details and will
+also, if selected, use information from the current message to auto-populate
+the form. The dialogue also enables a new Contact to be assigned to an existing
+Account through a search facility. 
+
+There is also a minor new feature whereby you can right click on any email
+address in the message header and use that to create a new Lead or contact too.
+
+0.5 also incorporates a little "intelligence" in how the extension chooses
+the email address to populate the search field in the "Add message to vtiger"
+dialogue box. If the email's author has an account in Thunderbird we now choose
+the first email address in the To: or CC: fields instead. Unfortunately this
+seems not to be 100% reliable in testing. I would welcome any feedback to 
+identify the cause. The detection code is the isTBAccount() function in 
+vtiger_lib.js. If it doesn't work, click on another message then go back and
+try again. It seems to work 2nd time around most times for me.
+
+0.5 also includes the ability to have the vtiger web interface open in a
+Thunderbird tab. Potentially this could be very useful for tighter integration
+in the future. Please share your feedback on this enhancement. You will notice 
+a little vtiger button on the far right of the tab bar. Click this to open your
+vtiger interface inside Thunderbird. All URLs which are _not_ local to your 
+vtiger should be opened in your default web browser. This is not perfect and 
+I expect some features of the vtiger UI to not work. It's more of a "proof of
+concept" for some future ideas but I have found it somewhat useful even so.
+
+Please report your feedback and comments to the project's home on the vtiger
+forge: http://forge.vtiger.com/projects/vttb3/
+
+* Improved the way the search box is populated in the Add Message to vtiger
+  dialogue.
+* Introduced new feature to create New Lead or Contact.
+* Major re-work of the way email messages are processed prior to the Add to 
+  vtiger.
+* Minor bug fix & improvement to the notification system for MAC OSX users
+  where Growl is not installed.
+* i18n Italian locale updates (thanks Carlo)
+* i18n Brazilian Portuguese locale updates (thanks Valmir)
+* Minor bug fix to a getStringFromMessage() call in the Add Lead from Address 
+  Book code.
+* Introduced German language locale support (thanks Peter)
+* Added testing of the required status of the Company field in the Leads 
+  module.
+* Tweaked the first run process a little to clean up the alerts/dialogues.
+* Added a tab button to open vtiger in a local Thunderbird tab.
+* Added a context menu item to the Message Header to enable Lead/Contact
+  creation from any of the visible email addresses (thanks Alan Bell for that
+  suggestion).
+* Fixed a bug with an error report when the extension got a 404 (not found)
+  message back from a host.
+* Fixed bug #294. Character encoding was being mangled when saving a message to
+  vtiger with non-unicode strings. Thanks to Istvan for reporting and Jonathan
+  Protzenko for the suggested solution.
+
+
+0.4.3
+2010-10-28
+
+Added support for bi-directional transfer of the "description" field of the
+Leads and Contacts modules and the "Notes" field of the Thunderbird address
+book.
+
+0.4.2
+2010-12-10
+Added support for automatic updates to this extension.
+The extension .xpi files must now be signed using the mozilla tool McCoy.
+Future extension upgrades will be made available via this forge project's
+website location: http://vttb3.forge.vtiger.com/updates/
+No other changes were made to this version.
+
+* Updated install.rdf to enable automatic updates of this extension.
+
+
+0.4.1
+2010-09-28
+Minor update to the extension to work with the newly released vtiger 5.2.0.
+Required a bump to the apiVersion parameter and I tweaked the api test to allow
+the extension to continue to work with vtiger 5.1.0 as well.
+
+* Bumped API version to 0.22 to work with vtiger 5.2.0.
+* Modified API version test to support both vtiger 5.1.0 & 5.2.0
+
+
+0.4
+2010-09-26
+Several new features and enhancements in this release. Change from using
+javascript alertMessage() popups for all extension messages (all required user
+acknowledgement) to using system based notifications for informative messages.
+Also added a new feature to automatically "tag" an email when it is 
+successfully added to vtiger. The Tag name and colour is user-configurable. 
+This also required adding a preferences dialogue to allow the auto-tagging
+feature to be enabled or disabled by the user. Added a context (right-click)
+menu to the main Address Book list view pane to facilitate adding entries to 
+Leads or Contacts. In 0.4-testing the session management changes didn't work,
+properly; these have now been rectified by reverting to the earlier method
+introduced in version 0.3.
+
+* Feature request #256: Add feature to use system notifications for informative
+  messages
+* Feature request #279: Add automatic tagging of emails - Thanks Andrew Wilson
+* Add user-configurable preferences dialogue to enable or disable tagging
+  feature
+* Feature request #239: Add context menu to Address Book for adding to Contacts
+  or Leads
+* Merge vtiger team code improvements for:
+  * Using the "hidden iframe" technique for HTML email content retrieval
+* Update install.rdf to support TB 3.2+ versions
+
+
+0.4-testing
+2010-08-16
+Initial test release. Messages that are positive in tone, and really just
+informative now use the Operating System's built-in notification system (Growl
+for OSX and libnotify for Linux) or a xul based alert. This is an alternative 
+to the standard Javascript alert messages which required user acknowledgement 
+and - in my opinion - were unnecessary and intrusive. Also merged in the recent
+changes made by the vtiger team mainly regarding the session management.
+
+* Implement showAlertNotification() for informative messages.
+* Merge vtiger team changes to session management and improved (correct) 
+  handling of email message content.
+
+
+0.3.1
+2010-07-21
+Minor extension update to support the new TB 3.1.1 release.
+
+* Updated install.rdf to support TB 3.1.* versions. 
+
+
+0.3
+2010-06-17
+Provide a new login & session control system. This extension requires that php
+is built with JSON support. In most cases this will be the default, but if you
+experience problems similar to bug #264 you are probably missing JSON support.
+If you are using a version before 0.2.2, the first time you start this version,
+you will see the first run check. Please accept the dialogue and save your 
+settings as normal. After that you will be logged in silently when starting 
+Thunderbird. The Birthday and Website fields in the Thunderbird Address Book 
+are now exported to vtiger Contacts and Leads respectively. This version has
+also been successfully tested against the Verification Build 2 of the 
+forthcoming vtiger 5.2.0 release. Please test further and report any issues.
+ 
+* Fix bug #236 with the login & session management improvements.
+* Implement Feature Request #230 with the improved login and session manager. 
+* Implement Feature Requests #269 & #270 by exporting the Birthday and Website
+  fields from the Thunderbird Address Book -  Thanks Juan Villaverde. 
+* Implemented changes to support working against the updated webservices 
+  interface of vtiger 5.2.0VB2. 
+
+
+0.2.3-testing
+2010-05-28
+Initial test release fix the session login/timeout problems. There should now
+be no need to ever visit the vtiger configuration screen once the extension 
+has been properly configured on first run. The extension should login 
+automatically on startup and keep the session live. It does this by storing 
+the time-since-epoch when it first logs in and then checking this as necessary.
+The timer is incremented on successful transactions and reset (re-login) after
+25 minutes of inactivity or more.
+
+* Added an automated login and session keep-alive system. 
+
+
+0.2.2
+2010-05-20
+This release includes a new Brazilian Portuguese translation, and an automatic
+login on start-up and "first run" check.  This new feature is the beginning of
+some work to enable the extension to maintain a connection to the vtiger CRM 
+irrespective of the inactivity time of a user. Further work is still necessary
+to complete this however. This release also fixes a bug when adding an email 
+the search query would not return more than 100 results.
+
+* Fixed bug #273. When adding an email to a lead or contact, a broad search
+  query would only ever return a maximum of 100 results - Thanks Mark Geertsema
+* Add feature to login automatically on start up. 
+* Brazilian Portuguese translation - Thanks Valmir Carlos Trindade
+
+
+0.2.1
+2010-05-13
+Several bugs in the 0.2.0 version were discovered soon after release. This
+version corrects those and includes the completed Spanish (es-ES) translations.
+
+Changes:
+* Fixed bug #268 that prevented several fields being added when using the 
+  "Add as Contact" feature of the Thunderbird Address Book. - Thanks Juan 
+  Villaverde
+* Fixed some minor bugs in the translation code work that might have caused
+  silent failures when adding an email.
+* Included the completed translation strings for es-ES (Spanish)
+
+
+0.2.0
+2010-05-13
+Completes the majority of the i18n work on the extension. Also includes a bug
+fix which prevented adding leads from addressbook if they had no company name.
+
+* Major i18n work and updates - some strings still require translation.
+* Fixed bug #261 - Thanks Istvan Holbok
+* Updated install.rdf to support all versions of Thunderbird 3 up to and 
+  including 3.1.
+
+
+0.1.4-a
+2010-04-12
+Minor update release includes a bug fix to the Hungarian localisation.
+* Correct missing entity declarations. 
+
+
+0.1.4
+2010-04-05
+Release includes all previous enhancements and fixes including support for
+saving HTML emails in full. It also fixes a couple of bugs and adds additional
+translations for Spanish and Hungarian.
+
+* Add Spanish i18n translation - thanks Joe Bordes 
+* Add Hungarian translation - thanks Istvan Holbok
+* Fix for bug 247 which severely limited the extension's search functionality
+  - thanks Joe Bordes.
+* Fix for bug 255 which prevented the extension from saving emails to Contacts
+  that did not have an Account in vtiger - thanks Joe Bordes.
+
+
+0.1.3
+2010-03-30
+Initial test code to support copying HTML emails to vtiger. Works for text
+messages and html messages with externally linked images. Inline images are
+not handled (and probably won't be).
+
+* Added initial support for passing HTML emails to vtiger. 
+* Added initial support for a column in the main tree view to flag messages
+  as saved to vtiger (not functional yet). 
+
+
+0.1.2
+2010-03-22
+Release includes Italian Language translation and an initial fix for the
+missing Line Breaks in saved emails. This fix does not support HTML emails
+but it should add XHTML Line Breaks to all messages maintaining paragraph
+spacing etc.
+
+* First international translation (Italian) - Thanks Carlo Beschi.
+* Fix the lack of line breaks which occur when an email is saved to vtiger.
+
+
+0.1.1a
+2010-03-12
+Minor release to include support for the recently released Thunderbird 
+3.1beta. All new development will be for this platform (Gecko 1.9.2).
+
+* Updated install.rdf to include support up to and including versions 3.1b2
+  of Thunderbird.
+
+
+0.1a
+2010-02-16
+First release of the vtiger extension for Thunderbird 3.0. Many of the known
+limitations in the existing vtiger extension for Thunderbird 2 still remain to
+be addressed. Please test and report any problems. Although this works for me,
+it should be considered ALPHA software at this stage. 
+
+* Migrated the existing Thunderbird 2 extension to work with the recently
+  released Thunderbird 3 series; tested up to TB3.0.3. 
+* Fixed a bug whereby you could not import more than 100 contacts from vtiger.
+* Introduced initial support for localisation. 

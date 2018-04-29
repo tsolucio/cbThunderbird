@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+
+<!--
+*********************************************************************************
+* The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+*
+********************************************************************************
+-->
+
+  <!-- list all the packages being supplied by this jar -->
+  <RDF:Seq about="urn:mozilla:package:root">
+    <RDF:li resource="urn:mozilla:package:vtiger"/>
+  </RDF:Seq>
+
+  <!-- package information -->
+  <RDF:Description about="urn:mozilla:package:vtiger"
+        chrome:author="vtiger"
+        chrome:authorURL="http://www.vtiger.com/"
+        chrome:description="vtigerCRM Extension for Mozilla Thunderbird." 
+        chrome:displayName="vtigerCRM"
+        chrome:name="vtiger"
+        chrome:extension="true"
+	    chrome:settingsURL="chrome://vtiger/content/settings.xul">
+  </RDF:Description>
+
+ <!-- Messenger Overlay -->
+  <RDF:Seq about="urn:mozilla:overlays">
+    <RDF:li resource="chrome://messenger/content/messenger.xul"/>
+  </RDF:Seq>
+
+  <RDF:Seq about="chrome://messenger/content/messenger.xul">
+    <RDF:li>chrome://vtiger/content/vtiger.xul</RDF:li>
+  </RDF:Seq>
+ 
+	<!-- addressbook overlay -->
+  <RDF:Seq about="urn:mozilla:overlays">
+	 <RDF:li resource="chrome://messenger/content/addressbook/addressbook.xul"/>
+   </RDF:Seq>
+  
+	<RDF:Seq about="chrome://messenger/content/addressbook/addressbook.xul">
+    <RDF:li>chrome://vtiger/content/vtigerab.xul</RDF:li>
+  </RDF:Seq>
+
+</RDF:RDF>

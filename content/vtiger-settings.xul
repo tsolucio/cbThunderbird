@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!--
+*********************************************************************************
+* The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+*
+********************************************************************************
+-->
+<!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&vtiger.sd.wnd.title;"
+	id="vtigercrmconfig"
+	onload="loadVtigerLoginDetails();"
+	style="padding-top:0px; padding-left:0px; padding-right:0px;">
+
+	<script type="application/x-javascript" src="chrome://vtiger/content/md5.js"/>
+	<script type="application/x-javascript" src="chrome://vtiger/content/json.js" />
+	<script type="application/x-javascript" src="chrome://vtiger/content/entitieshandler.namespaced.js" />
+	<script type="application/x-javascript" src="chrome://vtiger/content/vtiger_lib.js" />
+	<script type="application/x-javascript" src="chrome://vtiger/content/vtigercrm_thunderbird.js" />
+	
+<image src='chrome://vtiger/skin/config_top.png'/>
+
+<vbox flex="1" style="margin:5px">
+<groupbox flex="1">
+	<caption label="&vtiger.sd.lbl.main;"/>
+	 <vbox>
+		<hbox>
+		  <spacer flex="1"/>
+		  <label value="&vtiger.sd.lbl.username;" style="padding: 0px;margin-top: 3px;" />
+		  <hbox style="width: 25em">
+			 <textbox id="txtusername" flex="1" tooltiptext="&vtiger.sd.txt.username.tt;"/>
+		  </hbox>
+		</hbox>
+		<hbox>
+		  <spacer flex="1"/>
+		  <label value="&vtiger.sd.lbl.accesskey;" style="padding: 0px;margin-top: 3px;" />
+		  <hbox style="width: 25em">
+			 <textbox id="txtpassword" flex="1" type="password" tooltiptext="&vtiger.sd.txt.accesskey.tt;"/>
+		  </hbox>
+		</hbox>
+		<hbox>
+		  <spacer flex="1"/>
+		  <label value="&vtiger.sd.lbl.url;" style="padding: 0px;margin-top: 3px;" />
+		  <hbox style="width: 25em">
+			 <textbox id="txturl" flex="1" tooltiptext="&vtiger.sd.txt.url.tt;"/>
+		  </hbox>
+		</hbox>
+		<hbox>                 
+		  <spacer flex="1"/>
+		  <hbox style="width: 25em">
+				<label value="&vtiger.sd.lbl.example;"/>
+		  </hbox>
+		</hbox>
+	 </vbox>
+</groupbox>
+	<hbox id="commandBar" flex="1" align="right">
+		<hbox>
+			<button id="login_save" label="&vtiger.sd.btn.save;" tooltiptext="&vtiger.sd.btn.save.tt;" oncommand="saveVtigerLoginDetails();"/>
+			<button id="login_cancel" label="&vtiger.sd.btn.cancel;" tooltiptext="&vtiger.sd.btn.cancel.tt;" oncommand="window.close();"/>
+		</hbox>
+	</hbox>
+</vbox>
+</window>

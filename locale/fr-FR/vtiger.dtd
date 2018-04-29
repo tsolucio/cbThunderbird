@@ -1,0 +1,142 @@
+<!-- Main Toolbar Overlay -->
+<!ENTITY vtiger.tb.btn.lbl.AddMsgTovtiger "Ajouter Message">
+<!ENTITY vtiger.tb.btn.AddMsgTovtiger.tt "Ajouter le(s) message(s) sélectionné(s) à vtiger">
+<!ENTITY vtiger.tb.btn.lbl.CreateLeadContact "Nouveau Prospect/Contact">
+<!ENTITY vtiger.tb.btn.CreateLeadContact.tt "Créer un nouveau Prospect ou Contact"> 
+
+<!-- Tabbar Overlay -->
+<!ENTITY vtiger.tb.btn.Openvtiger.tt "Ouvrir vtiger dans un onglet">
+
+<!-- Tools Menu Overlay -->
+<!ENTITY vtiger.tool.menu.lbl.config "Configuration vtiger CRM...">
+<!ENTITY vtiger.tool.menu.acckey.config "v">
+<!ENTITY vtiger.tool.menu.lbl.add "Ajouter Message à vtiger CRM...">
+<!ENTITY vtiger.tool.menu.acckey.add "d">
+<!ENTITY vtiger.tool.menu.lbl.clc "Créer un nouveau Prospect ou Contact...">
+<!ENTITY vtiger.tool.menu.acckey.clc "c">
+
+<!-- Added to vtiger Column Header -->
+<!ENTITY vtiger.col.hdr.lbl.AddedTovtiger "Ajouter à vtiger">
+<!ENTITY vtiger.col.hdr.txt.AddedTovtiger.tt "Cliquer pour Ajouter à vtiger">
+
+<!-- Mail Context Menu Overlay -->
+<!ENTITY vtiger.mcm.menu.lbl.add "Ajouter Message à vtiger CRM...">
+<!ENTITY vtiger.mcm.menu.lbl.clc "Créer un nouveau Prospect ou Contact...">
+
+<!-- Status Bar -->
+<!ENTITY vtiger.sb.pnl.lbl.default "vtigerCRM: déconnecté">
+<!ENTITY vtiger.sb.pnl.default.tt "Statut des messages vtiger CRM">
+
+<!-- Settings Dialogue Window -->
+<!ENTITY vtiger.sd.wnd.title "vtigerCRM - Paramètres de Configuration">
+<!ENTITY vtiger.sd.lbl.main "vtigerCRM - Paramètres de Configuration">
+<!ENTITY vtiger.sd.lbl.username "Nom d'utilisateur:">
+<!ENTITY vtiger.sd.txt.username.tt "Entrer votre nom d'utilisateur vtiger">
+<!ENTITY vtiger.sd.lbl.accesskey "Access Key:">
+<!ENTITY vtiger.sd.txt.accesskey.tt "Entrer votre Access Key (Clé d'utilisateur). Disponible dans 'Mes Preferences -> Options avancées de l'utilisateur'">
+<!ENTITY vtiger.sd.lbl.url "URL:">
+<!ENTITY vtiger.sd.txt.url.tt "Entrer l'URL de votre installation vtiger CRM ">
+<!ENTITY vtiger.sd.lbl.example "(e.g., http://moncrm.vtiger.fr)">
+<!ENTITY vtiger.sd.btn.save "Sauver">
+<!ENTITY vtiger.sd.btn.save.tt "Sauver les détails et se connecter à vtiger">
+<!ENTITY vtiger.sd.btn.cancel "Annuler">
+<!ENTITY vtiger.sd.btn.cancel.tt "Fermer cette fenêtre sans sauvegarder les modifications">
+
+<!-- Add Message Dialogue Window -->
+<!ENTITY vtiger.am.wnd.title "Ajouter Message à vtiger CRM">
+<!ENTITY vtiger.am.tab.lbl.add "Ajouter Message">
+<!ENTITY vtiger.am.tab.lbl.edit "Editer Message">
+<!ENTITY vtiger.am.cap.lbl.subject "Sujet">
+<!ENTITY vtiger.am.txt.subject.tt "Le Sujet du Message. Peut être édité si nécessaire"> 
+<!ENTITY vtiger.am.cap.lbl.search "Choisir un module pour la recherche">
+<!ENTITY vtiger.am.radio.lbl.contacts "Contacts">
+<!ENTITY vtiger.am.radio.contacts.tt "Choisir parmi les Contacts vtiger">
+<!ENTITY vtiger.am.radio.lbl.leads "Prospects">
+<!ENTITY vtiger.am.radio.leads.tt "Choisir parmi les Prospects vtiger">
+<!ENTITY vtiger.am.txt.search.tt "Email ou nom recherché dans vtiger">
+<!ENTITY vtiger.am.btn.lbl.search "Recherche">
+<!ENTITY vtiger.am.lst.cap.lbl.select "Choisir un enregistrement pour l'associer au mail">
+<!ENTITY vtiger.am.lst.hdr.lbl.type "Type">
+<!ENTITY vtiger.am.lst.hdr.lbl.name "Nom">
+<!ENTITY vtiger.am.lst.hdr.lbl.co "Entreprise">
+<!ENTITY vtiger.am.lst.hdr.lbl.email "Courriel">
+<!ENTITY vtiger.am.txt.msg.tt "Le contenu du message. Peut être édité si nécessaire">
+<!ENTITY vtiger.am.btn.lbl.add "Ajouter à vtiger CRM">
+<!ENTITY vtiger.am.btn.add.tt "Sauver ce message avec le Contact ou Prospect sélectionné">
+<!ENTITY vtiger.am.btn.lbl.cancel "Annuler">
+<!ENTITY vtiger.am.btn.cancel.tt "Fermer cette fenêtre sans sauvegarder les modifications">
+
+<!-- Address Book Toolbar -->
+<!ENTITY vtiger.abtb.btn.lbl.impcon "Importer Contacts">
+<!ENTITY vtiger.abtb.btn.tt.impcon "Importer Contacts de vtiger CRM">
+<!ENTITY vtiger.abtb.btn.lbl.expcon "Exporter Contacts">
+<!ENTITY vtiger.abtb.btn.tt.expcon "Exporter Contacts vers vtiger CRM">
+<!ENTITY vtiger.abtb.btn.lbl.addcon "Ajouter comme Contact">
+<!ENTITY vtiger.abtb.btn.tt.addcon "Ajouter Contact(s) à vtiger CRM">
+<!ENTITY vtiger.abtb.btn.lbl.addlead "Ajouter comme Prospect">
+<!ENTITY vtiger.abtb.btn.tt.addlead "Ajouter Prospect(s) à vtiger CRM">
+
+<!-- Address Book Menu -->
+<!ENTITY vtiger.ab.menu.lbl.import "Importer de vtiger CRM...">
+<!ENTITY vtiger.ab.menu.acckey.import "p">
+<!ENTITY vtiger.ab.menu.lbl.export "Exporter vers vtiger CRM...">
+<!ENTITY vtiger.ab.menu.acckey.export "x">
+
+<!-- Import Address Book Dialogue Window -->
+<!ENTITY vtiger.impab.wnd.title "Importer de vtiger CRM">
+<!ENTITY vtiger.impab.lbl.main "Importer Contacts de vtiger CRM">
+<!ENTITY vtiger.impab.lbl.target "Choisir le carnet d'adresse cible:">
+<!ENTITY vtiger.impab.mnulist.tt "Choisir un carnet d'adresse existant ou créer un nouveau">  
+<!ENTITY vtiger.impab.prog.lbl.impcon "Import des Contacts en cours...">
+<!ENTITY vtiger.impab.btn.lbl.impcon "Import">
+<!ENTITY vtiger.impab.btn.tt.impcon "Importer les Contacts vtiger dans le carnet d'adresse sélectionné">
+<!ENTITY vtiger.impab.btn.lbl.cancel "Annuler">
+<!ENTITY vtiger.impab.btn.tt.cancel "Annuler l'import et fermer la fenêtre">
+
+<!-- Export Address Book Dialogue Window -->
+<!ENTITY vtiger.expab.wnd.title "Exporter vers vtiger CRM">
+<!ENTITY vtiger.expab.lbl.main "Exporter les Contacts vers vtiger CRM">
+<!ENTITY vtiger.expab.lbl.target "Choisir un carnet d'adresse:">
+<!ENTITY vtiger.expab.mnulist.tt "Choisir un carnet d'adresse existant ou créer un nouveau">
+<!ENTITY vtiger.expab.prog.lbl.expcon "Export des Contacts en cours...">
+<!ENTITY vtiger.expab.btn.lbl.expcon "Export">
+<!ENTITY vtiger.expab.btn.tt.expcon "Export du carnet d'adresse sélectionné vers vos Contacts vtiger. Note: Le nom de l'entreprise peut-être omis si l'entreprise n'est pas disponible dans le CRM.">
+<!ENTITY vtiger.expab.btn.lbl.cancel "Annuler">
+<!ENTITY vtiger.expab.btn.tt.cancel "Annuler l'export et fermer la fenêtre">
+
+<!-- Preferences Settings Window -->
+<!ENTITY vtiger.vtiger-prefs.wnd.title "Préférences">
+<!ENTITY vtiger.vtiger-prefs.chkbox.lbl.tagging "Activer Auto Tagging">
+<!ENTITY vtiger.vtiger-prefs.chkbox.tt.tagging "Choisir de tagguer automatiquement les emails vers vtiger CRM">
+
+<!-- Create New Lead/Contact Window -->
+<!ENTITY vtiger.clc.wnd.title "Créer Nouveau Prospect ou Contact">
+<!ENTITY vtiger.clc.tab.lbl.newLead "Nouveau Prospect">
+<!ENTITY vtiger.clc.tab.lbl.newContact "Nouveau Contact">
+<!ENTITY vtiger.clc.cap.lbl.commonFields "Champs communs">
+<!ENTITY vtiger.clc.lbl.value.firstName "Prénom:">
+<!ENTITY vtiger.clc.txt.firstName.tt "Prénom - En option">
+<!ENTITY vtiger.clc.lbl.value.lastName "Nom:">
+<!ENTITY vtiger.clc.txt.lastName.tt "Nom - Requis">
+<!ENTITY vtiger.clc.lbl.value.email "Courriel:">
+<!ENTITY vtiger.clc.txt.email.tt "Courriel - En Option">
+<!ENTITY vtiger.clc.lbl.value.phone "Téléphone:">
+<!ENTITY vtiger.clc.txt.phone.tt "Téléphone - En Option">
+<!ENTITY vtiger.clc.lbl.value.notes "Notes:">
+<!ENTITY vtiger.clc.txt.notes.tt "Notes, Commentaires etc. - En Option">
+<!ENTITY vtiger.clc.cap.lbl.co "Entreprise du nouveau Prospect - Requis">
+<!ENTITY vtiger.clc.lbl.value.co "Entreprise:">
+<!ENTITY vtiger.clc.txt.co.tt "Entrer l'Entreprise ici">
+<!ENTITY vtiger.clc.btn.lbl.cl "Créer Nouveau Prospect">
+<!ENTITY vtiger.clc.btn.cl.tt "Créer un Nouveau Prospect avec les details suivants">
+<!ENTITY vtiger.clc.btn.lbl.cancel "Annuler">
+<!ENTITY vtiger.clc.btn.cancel.tt "Annuler et fermer la fenêtre">
+<!ENTITY vtiger.clc.cap.lbl.acc "Choisir un Compte à associer au Contact - En Option">
+<!ENTITY vtiger.clc.lbl.value.acc "Compte:">
+<!ENTITY vtiger.clc.txt.acc.tt "Entrer une recherche pour le compte - En Option">
+<!ENTITY vtiger.clc.btn.lbl.acc "Chercher Compte">
+<!ENTITY vtiger.clc.btn.acc.tt "Chercher un compte vtiger existant">
+<!ENTITY vtiger.clc.lst.hdr.lbl.acc "Compte">
+<!ENTITY vtiger.clc.lst.acc.tt "Choisir un Compte relatif au nouveau Contact">
+<!ENTITY vtiger.clc.btn.lbl.cc "Créer Nouveau Contact">
+<!ENTITY vtiger.clc.btn.cc.tt "Créer un Nouveau Contact avec les details suivants">

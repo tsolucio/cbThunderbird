@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://vtiger/skin/vtiger.css" type="text/css"?>
+
+<!--
+*********************************************************************************
+* The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+*
+********************************************************************************
+-->
+<!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
+<overlay id="vtigeraboverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://vtiger/content/json.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/md5.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/entitieshandler.namespaced.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/vtiger_lib.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/vtigercrm_thunderbird.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/vtigerab.js"/>
+
+<toolbarpalette id="AddressBookToolbarPalette">
+	
+	<toolbarbutton id="import-button" class="toolbarbutton-1" label="&vtiger.abtb.btn.lbl.impcon;"
+		oncommand="return checkContactView_perm();" tooltiptext="&vtiger.abtb.btn.tt.impcon;"/>
+
+	<toolbarbutton id="export-button" class="toolbarbutton-1" label="&vtiger.abtb.btn.lbl.expcon;"
+		oncommand="return checkContact_perm();" tooltiptext="&vtiger.abtb.btn.tt.expcon;"/>
+
+	<toolbarbutton id="add-button" class="toolbarbutton-1" label="&vtiger.abtb.btn.lbl.addcon;"
+		oncommand="addSelectedContacts();" tooltiptext="&vtiger.abtb.btn.tt.addcon;"/>
+
+	<toolbarbutton id="add-lead-button" class="toolbarbutton-1" label="&vtiger.abtb.btn.lbl.addlead;"
+	oncommand="addSelectedLeads();" tooltiptext="&vtiger.abtb.btn.tt.addlead;"/>
+</toolbarpalette>
+
+<popup id="dirTreeContext">
+	<menuseparator insertafter="dirTreeContext-delete"/>
+	<menuitem id="dirTreeImppopup" label="&vtiger.ab.menu.lbl.import;" accesskey="&vtiger.ab.menu.acckey.import;" oncommand="return checkContactView_perm();"/>
+	<menuitem id="dirTreeEmppopup" label="&vtiger.ab.menu.lbl.export;" accesskey="&vtiger.ab.menu.acckey.export;" oncommand="return checkContact_perm();"/>
+</popup>
+
+<popup id="abResultsTreeContext">
+	<menuseparator insertafter="abResultsTreeContext-delete"/>
+	<menuitem id="add-contact-menu" label="&vtiger.abtb.btn.lbl.addcon;" oncommand="addSelectedContacts();" tooltiptext="&vtiger.abtb.btn.tt.addcon;" />
+	<menuitem id="add-lead-menu" label="&vtiger.abtb.btn.lbl.addlead;" oncommand="addSelectedLeads();" tooltiptext="&vtiger.abtb.btn.tt.addlead;" />
+</popup>
+  
+<menu id="tasksMenu">
+	<menupopup id="taskPopup">
+		<menuseparator/>
+		<menuitem id="impmenu" label="&vtiger.ab.menu.lbl.import;"  accesskey="&vtiger.ab.menu.acckey.import;" oncommand="return checkContactView_perm();"/>
+		<menuitem id="expmenu" label="&vtiger.ab.menu.lbl.export;" accesskey="&vtiger.ab.menu.acckey.export;" oncommand="return checkContact_perm();"/>
+ </menupopup>
+</menu>
+		  
+</overlay>

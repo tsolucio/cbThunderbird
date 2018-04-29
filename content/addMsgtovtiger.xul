@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://communicator/skin/pref/pref.css" type="text/css"?>
+<?xml-stylesheet href="chrome://vtiger/skin/vtiger.css" type="text/css"?>
+<!--
+*********************************************************************************
+* The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+*
+********************************************************************************
+-->
+<!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&vtiger.am.wnd.title;"
+	id="addmsgtovtigercrm"
+	onload="vget_mailfrmaddrs();">
+	
+<script type="application/x-javascript" src="chrome://vtiger/content/md5.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/json.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/entitieshandler.namespaced.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/vtiger_lib.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/vtigercrm_thunderbird.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/addtovtiger.js" />
+
+<!-- <script type="application/x-javascript" src="chrome://vtiger/content/sort.js" /> -->
+	
+<image src="chrome://vtiger/skin/email_add.png"/>
+
+<vbox>
+	<vbox id="tabbedui" style="margin:7px;">
+		<tabbox>
+	    	<tabs id="abTabs">
+	        	<tab label="&vtiger.am.tab.lbl.add;"/>
+	        	<tab label="&vtiger.am.tab.lbl.edit;"/>
+	        </tabs>
+			<groupbox flex="1">
+				<caption label="&vtiger.am.cap.lbl.subject;"/>
+				<vbox>
+					<textbox style="width:20em;" align="left" id="txtsubject" tooltiptext="&vtiger.am.txt.subject.tt;"/>
+				</vbox>
+	        </groupbox>
+			<tabpanels id="abTabPanels" flex="1">
+				<!--  Add Message Tab -->
+				<vbox flex="1">
+					<groupbox flex="1">
+						<caption label="&vtiger.am.cap.lbl.search;"/>
+						<radiogroup id="grpModules" name="grpModules">
+							<hbox>
+								<vbox>
+									<radio id="Contacts" selected="true" label="&vtiger.am.radio.lbl.contacts;" tooltiptext="&vtiger.am.radio.contacts.tt;"/>
+								</vbox>
+								<vbox>
+									<radio id="Leads" label="&vtiger.am.radio.lbl.leads;" tooltiptext="&vtiger.am.radio.leads.tt;"/>
+								</vbox>
+				  			</hbox>
+							<hbox>
+								<vbox>
+									<textbox id="txtemailid" align="left" tooltiptext="&vtiger.am.txt.search.tt;" style="width:20em;"/>
+								</vbox>
+						 		<vbox>
+									<button style="width: 15em;" label="&vtiger.am.btn.lbl.search;"  oncommand="bget_RcdBySearch();"/>
+						 		</vbox>
+							</hbox>
+						</radiogroup>
+					</groupbox>
+					<groupbox flex="1">
+						<caption class="tab-caption" label="&vtiger.am.lst.cap.lbl.select;"/>
+						<vbox>
+							<listbox id="lstcontactinfo" ondblclick="load_vtigercrm(this.selectedItem.value)">
+								<listhead>
+									<listheader label="&vtiger.am.lst.hdr.lbl.type;"/>
+									<listheader label="&vtiger.am.lst.hdr.lbl.name;"/>
+									<listheader label="&vtiger.am.lst.hdr.lbl.co;"/>
+									<listheader label="&vtiger.am.lst.hdr.lbl.email;"/>
+								</listhead>
+								<listcols>
+									<listcol flex="1"/>
+									<listcol flex="2"/>
+									<listcol flex="3"/>
+									<listcol flex="4"/>
+								</listcols>
+							</listbox>
+						</vbox>
+					</groupbox>
+				</vbox>
+				<!--Edit Message Tab -->
+				<vbox index="other" flex="1">
+					<textbox id="TextAreaValue" flex="1" multiline="true" rows="10" tooltiptext="&vtiger.am.txt.msg.tt;"/>
+					<div style="display: none;">
+						<iframe type="content" id="iframeValue" flex="1" multiline="true" rows="10"/>
+					</div>
+				</vbox>
+			</tabpanels> 
+		</tabbox>
+	</vbox>
+	<hbox id="commandBar" flex="1" align="right" style="margin-bottom:5px;">
+		<hbox>
+			<button label="&vtiger.am.btn.lbl.add;" tooltiptext="&vtiger.am.btn.add.tt;" oncommand="vaddemailtovtigerCRM();"/>
+			<button label="&vtiger.am.btn.lbl.cancel;" tooltiptext="&vtiger.am.btn.cancel.tt;" oncommand="window.close();"/>
+		</hbox>
+	</hbox>
+</vbox>
+</window>

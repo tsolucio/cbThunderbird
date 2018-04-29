@@ -1,0 +1,77 @@
+/* ********************************************************************************
+* The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+*
+******************************************************************************* */
+#vtiger-msg-button, #vtiger-clc-button {
+  list-style-image: url("chrome://vtiger/skin/vtiger32.png");
+}
+
+#vtiger-msg-button:hover, #vtiger-clc-button:hover {
+  list-style-image: url("chrome://vtiger/skin/vtiger_3232_hover.png");
+}
+
+toolbar[iconsize="small"] #vtiger-msg-button, toolbar[iconsize="small"] #vtiger-clc-button, #vtiger-tab-button {
+  list-style-image: url("chrome://vtiger/skin/vtiger20.png");
+}
+
+toolbar[iconsize="small"] #vtiger-msg-button:hover, toolbar[iconsize="small"] #vtiger-clc-button:hover {
+  list-style-image: url("chrome://vtiger/skin/vtiger_2020_hover.png");
+}
+
+#import-button {
+  list-style-image: url("chrome://vtiger/skin/import.png");
+}
+
+#import-button:hover {
+  list-style-image: url("chrome://vtiger/skin/import_3232_hover.png");
+} 
+
+toolbar[iconsize="small"] #import-button {
+  list-style-image: url("chrome://vtiger/skin/import_20x20.png");
+}
+
+toolbar[iconsize="small"] #import-button:hover {
+  list-style-image: url("chrome://vtiger/skin/import_2020_hover.png");
+}
+
+#export-button {
+  list-style-image: url("chrome://vtiger/skin/export.png");
+}
+
+#export-button:hover {
+  list-style-image: url("chrome://vtiger/skin/export_3232_hover.png");
+}
+
+toolbar[iconsize="small"] #export-button {
+  list-style-image: url("chrome://vtiger/skin/export_20x20.png");
+}
+
+toolbar[iconsize="small"] #export-button:hover {
+  list-style-image: url("chrome://vtiger/skin/export_2020_hover.png");
+}
+
+#add-button {
+  list-style-image: url("chrome://vtiger/skin/tbirdAddAsContact.png");
+}
+
+toolbar[iconsize="small"] #add-button {
+  list-style-image: url("chrome://vtiger/skin/tbirdAddAsContact20x20.png");
+}
+
+#add-lead-button {
+  list-style-image: url("chrome://vtiger/skin/tbirdAddAsLead.png");
+}
+
+toolbar[iconsize="small"] #add-lead-button {
+  list-style-image: url("chrome://vtiger/skin/tbirdAddAsLead20x20.png");
+}
+
+/* Image for the Custom Column in the main view */
+.treecol-image#colvtiger  {
+    list-style-image: url("chrome://vtiger/skin/added-to-vtiger20.png");
+}

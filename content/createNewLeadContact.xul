@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://communicator/skin/pref/pref.css" type="text/css"?>
+<!--
+*********************************************************************************
+* The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+*
+********************************************************************************
+-->
+<!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&vtiger.clc.wnd.title;"
+	id="createleadcontact"
+	onload="populateFields();">
+	
+<script type="application/x-javascript" src="chrome://vtiger/content/md5.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/json.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/entitieshandler.namespaced.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/vtiger_lib.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/vtigercrm_thunderbird.js" />
+<script type="application/x-javascript" src="chrome://vtiger/content/createNewLeadContact.js" />
+	
+<image src="chrome://vtiger/skin/email_add.png"/>
+
+<vbox>
+	<vbox id="clcTabbedui" style="margin:7px;">
+		<tabbox>
+	    	<tabs id="clcTabs">
+	        	<tab label="&vtiger.clc.tab.lbl.newLead;"/>
+	        	<tab label="&vtiger.clc.tab.lbl.newContact;"/>
+	        </tabs>
+			<groupbox flex="1">
+				<caption label="&vtiger.clc.cap.lbl.commonFields;"/>
+				<hbox>
+					<vbox flex="1">
+						<label control="clcFirstname" value="&vtiger.clc.lbl.value.firstName;"/>
+						<textbox align="left" id="clcFirstname" tooltiptext="&vtiger.clc.txt.firstName.tt;"/>
+					</vbox>
+					<vbox  flex="1">
+						<label control="clcLastname" value="&vtiger.clc.lbl.value.lastName;"/>
+						<textbox align="left" id="clcLastname" tooltiptext="&vtiger.clc.txt.lastName.tt;"/>
+					</vbox>
+				</hbox>
+				<hbox>
+					<vbox flex="1">
+						<label control="clcEmail" value="&vtiger.clc.lbl.value.email;"/>
+						<textbox align="left" id="clcEmail" tooltiptext="&vtiger.clc.txt.email.tt;"/>
+					</vbox>
+					<vbox flex="1">
+						<label control="clcPhone" value="&vtiger.clc.lbl.value.phone;"/>
+						<textbox align="left" id="clcPhone" tooltiptext="&vtiger.clc.txt.phone.tt;"/>
+					</vbox>
+				</hbox>
+				<hbox>
+					<vbox flex="1">
+						<label control="clcNotes" value="&vtiger.clc.lbl.value.notes;"/>
+						<textbox align="left" id="clcNotes" multiline="true" rows="4" tooltiptext="&vtiger.clc.txt.notes.tt;"/>
+					</vbox>
+				</hbox>
+	        </groupbox>
+			<tabpanels id="clcTabPanels" flex="1">
+				<!--  New Lead Tab -->
+				<vbox flex="1">
+					<caption id="capCompanyLead" label="&vtiger.clc.cap.lbl.co;"/>
+					<hbox>
+						<vbox flex="1">
+							<label control="clcCompany" value="&vtiger.clc.lbl.value.co;"/>
+							<textbox align="left" id="clcCompany" tooltiptext="&vtiger.clc.txt.co.tt;"/>
+						</vbox>
+					</hbox>
+					<spacer flex="1" />
+					<hbox>
+						<spacer flex="1" />
+						<button label="&vtiger.clc.btn.lbl.cl;" tooltiptext="&vtiger.clc.btn.cl.tt;" oncommand="createNewLead();"/>
+						<button label="&vtiger.clc.btn.lbl.cancel;" tooltiptext="&vtiger.clc.btn.cancel.tt;" oncommand="window.close();"/>
+					</hbox>
+				</vbox>
+				<!--New Contact Tab -->
+				<vbox index="other" flex="1">
+					<caption label="&vtiger.clc.cap.lbl.acc;"/>
+					<hbox>
+						<label control="clcAccount" value="&vtiger.clc.lbl.value.acc;"/>
+					</hbox>
+					<hbox>
+						<textbox id="clcAccount" flex="1" tooltiptext="&vtiger.clc.txt.acc.tt;"/>
+						<button label="&vtiger.clc.btn.lbl.acc;" tooltiptext="&vtiger.clc.btn.acc.tt;" oncommand="getAccounts();"/>	
+					</hbox>
+					<vbox>
+						<listbox id="clcAccountNames" rows="5" seltype="single" tooltiptext="&vtiger.clc.lst.acc.tt;" ondblclick="">
+							<listhead>
+								<listheader label="&vtiger.clc.lst.hdr.lbl.acc;"/>
+							</listhead>
+							<listcols>
+								<listcol flex="1"/>
+							</listcols>
+						</listbox>
+					</vbox>
+					<hbox>
+						<spacer flex="1" />
+						<button label="&vtiger.clc.btn.lbl.cc;" tooltiptext="&vtiger.clc.btn.cc.tt;" oncommand="createNewContact();"/>
+						<button label="&vtiger.clc.btn.lbl.cancel;" tooltiptext="&vtiger.clc.btn.cancel.tt;" oncommand="window.close();"/>
+					</hbox>
+				</vbox>
+			</tabpanels> 
+		</tabbox>
+	</vbox>
+</vbox>
+</window>

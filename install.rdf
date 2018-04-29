@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--	
+*********************************************************************************
+* The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+*
+********************************************************************************
+--> 
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">   
+	 <Description about="urn:mozilla:install-manifest">
+        <em:id>vttb3@vtiger.com</em:id>
+        <em:name>vtiger Thunderbird Extension</em:name>
+		<em:version>0.510</em:version>
+        <em:description>vtiger CRM Extension for Thunderbird 3 and beyond</em:description>
+		<em:type>2</em:type>
+        <em:creator>vtiger.com</em:creator>
+        <em:contributor>Alan Lord: alan.lord@libertus.co.uk</em:contributor>
+        <em:contributor>Carlo Beschi: c.beschi@studiosynthesis.biz</em:contributor>
+        <em:contributor>Joe Bordes: joe@tsolucio.com</em:contributor>
+        <em:contributor>Istvan Holbok: holbok@gmail.com</em:contributor>
+        <em:contributor>Valmir C. Trindade: valmir@ttcasolucoes.com.br</em:contributor>
+        <em:contributor>Peter Caesar: p.caesar@osmaco.de</em:contributor>
+        <em:contributor>Boris CLEMENT: boris@abo-s.com</em:contributor>
+		<em:iconURL>chrome://vtiger/skin/vtiger32.png</em:iconURL>
+        <em:homepageURL>http://www.vtiger.com</em:homepageURL>
+        <em:targetApplication><!-- Mozilla Thunderbird -->
+            <Description>
+                <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+                <em:minVersion>3.0</em:minVersion>
+                <em:maxVersion>24.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:updateURL>http://vttb3.forge.vtiger.com/updates/update.rdf</em:updateURL>
+        <em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJYVPzkuKFDv+PYJTIncjeeyglP1ybkgo80l36jpVjR2kr1OnJWEYpnzVkwbOWHeQ4JEmng3yEn/z2U6sLYlqBntqmzd2MprwrbD813mdskrcDdM3vWd2sglyGIWHh9d/Hu/QcJgfn2G+vWnIUeCO3ncB0S2FlOAz42l+ViDHK2QIDAQAB</em:updateKey>
+        <em:optionsURL>chrome://vtiger/content/options.xul</em:optionsURL>
+    </Description>
+</RDF>

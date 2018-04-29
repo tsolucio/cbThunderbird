@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!--
+/* ********************************************************************************
+* The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+*
+******************************************************************************* */
+-->
+<!DOCTYPE overlay SYSTEM "chrome://vtiger/locale/vtiger.dtd">
+<prefwindow id="vtiger-prefs"
+	title="&vtiger.vtiger-prefs.wnd.title;"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<prefpane id="vtiger-prefs-pane">
+		<preferences>
+		  <preference id="pref_tagging" name="vtiger.Settings.Conf.enableTagging" type="bool"/>
+		</preferences>
+	 
+	<checkbox id="tagging" preference="pref_tagging" label="&vtiger.vtiger-prefs.chkbox.lbl.tagging;" tooltiptext="&vtiger.vtiger-prefs.chkbox.tt.tagging;"/>
+
+	</prefpane>
+
+</prefwindow>

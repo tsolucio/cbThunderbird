@@ -1,0 +1,40 @@
+<?xml version="1.0"?> 
+<?xml-stylesheet href="chrome://vtiger/content/vtiger.css" type="text/css"?>
+<!--
+*********************************************************************************
+* The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+*
+********************************************************************************
+-->
+<!DOCTYPE window SYSTEM "chrome://vtiger/content/vtiger.dtd">
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+			title=""
+			id="settings"
+			orient="vertical"
+			flex="0"
+			onload="onLoad()"
+			persist="screenX screenY">
+	<script type="application/x-javascript" src="chrome://global/content/nsUserSettings.js"/>
+	<script type="application/x-javascript" src="exUnregisterer.js"/>
+	<script type="application/x-javascript">
+	/* <![CDATA[ */
+		function onUninstall(){
+		
+			if(! confirm("Uninstall this extension?")) return;
+			var unreg = new exUnregisterer('chrome://vtiger/content/contents.rdf');
+			unreg.unregister();
+			unreg.removePrefs('vtiger');
+			window.close();
+			
+		}
+	/* ]]> */
+	</script>
+  <hbox>
+  <button label="Uninstall" oncommand="onUninstall();"/>
+  </hbox>
+</window>
