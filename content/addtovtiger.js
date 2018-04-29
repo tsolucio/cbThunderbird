@@ -281,7 +281,7 @@ function vaddemailtovtigerCRM(){
 			email["description"] = document.getElementById("TextAreaValue").value;
 			email["assigned_user_id"] = client.getUserId();
 			email["activitytype"] = "Emails";
-			email["email_flag"] = "Thunderbird";
+			email["email_flag"] = "SENT";
 			try{
 				var bMsg = myBundle.GetStringFromName("CantAddMess");
 				createAndCheck(email,"Emails",handleError(

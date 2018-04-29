@@ -3,16 +3,16 @@ overlay	chrome://messenger/content/messenger.xul	chrome://vtiger/content/vtiger-
 
 overlay	chrome://messenger/content/addressbook/addressbook.xul	chrome://vtiger/content/vtigerab.xul
 
-content	vtiger	jar:chrome/vttb3-0.511.jar!/content/
+content	vtiger	jar:chrome/vttb3-0.512.jar!/content/
 
-locale  vtiger	en-US	jar:chrome/vttb3-0.511.jar!/locale/en-US/
-locale  vtiger	it-IT	jar:chrome/vttb3-0.511.jar!/locale/it-IT/
-locale  vtiger	es-ES	jar:chrome/vttb3-0.511.jar!/locale/es-ES/
-locale  vtiger	hu-HU	jar:chrome/vttb3-0.511.jar!/locale/hu-HU/
-locale	vtiger	pt-BR	jar:chrome/vttb3-0.511.jar!/locale/pt-BR/
-locale  vtiger	de-DE	jar:chrome/vttb3-0.511.jar!/locale/de-DE/
-locale  vtiger	ru-RU	jar:chrome/vttb3-0.511.jar!/locale/ru-RU/
-locale	vtiger	fr-FR	jar:chrome/vttb3-0.511.jar!/locale/fr-FR/
+locale  vtiger	en-US	jar:chrome/vttb3-0.512.jar!/locale/en-US/
+locale  vtiger	it-IT	jar:chrome/vttb3-0.512.jar!/locale/it-IT/
+locale  vtiger	es-ES	jar:chrome/vttb3-0.512.jar!/locale/es-ES/
+locale  vtiger	hu-HU	jar:chrome/vttb3-0.512.jar!/locale/hu-HU/
+locale	vtiger	pt-BR	jar:chrome/vttb3-0.512.jar!/locale/pt-BR/
+locale  vtiger	de-DE	jar:chrome/vttb3-0.512.jar!/locale/de-DE/
+locale  vtiger	ru-RU	jar:chrome/vttb3-0.512.jar!/locale/ru-RU/
+locale	vtiger	fr-FR	jar:chrome/vttb3-0.512.jar!/locale/fr-FR/
 
-skin	vtiger	classic/1.0	jar:chrome/vttb3-0.511.jar!/skin/
+skin	vtiger	classic/1.0	jar:chrome/vttb3-0.512.jar!/skin/
 style	chrome://global/content/customizeToolbar.xul	chrome://vtiger/skin/vtiger.css

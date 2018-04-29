@@ -14,7 +14,7 @@
 	 <Description about="urn:mozilla:install-manifest">
         <em:id>vttb3@vtiger.com</em:id>
         <em:name>vtiger Thunderbird Extension</em:name>
-		<em:version>0.511</em:version>
+		<em:version>0.512</em:version>
         <em:description>vtiger CRM Extension for Thunderbird 3 and beyond</em:description>
 		<em:type>2</em:type>
         <em:creator>vtiger.com</em:creator>
