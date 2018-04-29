@@ -274,13 +274,14 @@ function vaddemailtovtigerCRM(){
 				email["ccmail"] = window.arguments[0].cc;
 			}
 			email["date_start"] = getFormatedDate(date);
+			email["time_start"] = date.getUTCHours()+':'+date.getUTCMinutes()+':'+date.getUTCSeconds();
 			email["saved_toid"] = document.getElementById('lstcontactinfo').selectedItem.childNodes[emailNodeIndex].getAttribute('label');
 			email["subject"] = email_subject;
 			
 			email["description"] = document.getElementById("TextAreaValue").value;
 			email["assigned_user_id"] = client.getUserId();
 			email["activitytype"] = "Emails";
-			email["email_flag"] = "SENT";
+			email["email_flag"] = "Thunderbird";
 			try{
 				var bMsg = myBundle.GetStringFromName("CantAddMess");
 				createAndCheck(email,"Emails",handleError(
