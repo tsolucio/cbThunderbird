@@ -10,7 +10,9 @@
  ******************************************************************************* */
 
 //Run on startup.
-window.addEventListener("load", vtStartup, false);
+window.addEventListener("load", function() {
+	setTimeout(function() { vtStartup(); }, 0);
+}, false);
 
 //Load the vtiger.properties string file
 var bundles = Components.classes["@mozilla.org/intl/stringbundle;1"]
