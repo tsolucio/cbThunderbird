@@ -145,7 +145,7 @@ var VT_HTTPClient = function(endPointURL){
 	 */
 	function doPost(params,callback){
 		var encodedParams = getEncodedParameterString(params);
-		var httpRequest = getRequest();
+		var httpRequest = new XMLHttpRequest();
 		doXHRPost(httpRequest,url,encodedParams,callback);
 	}
 	
@@ -156,7 +156,7 @@ var VT_HTTPClient = function(endPointURL){
 	 */
 	function doGet(params,callback){
 		var encodedParams = getEncodedParameterString(params);
-		var httpRequest = getRequest();
+		var httpRequest = new XMLHttpRequest();
 		doXHRGet(httpRequest,url,encodedParams,callback);
 	}
 	
@@ -235,15 +235,6 @@ var VT_HTTPClient = function(endPointURL){
 			hideBusy();
 		}
 		callback(success,httpRequest);
-	}
-	
-	/**
-	 * get an instance of nsIXMLHttpRequest class object.
-	 * @return httpRequest:nsIXMLHttpRequest XHR class Instance.
-	 */
-	function getRequest(){
-		return Components.classes["@mozilla.org/xmlextras/xmlhttprequest;1"]
-					.createInstance(Components.interfaces.nsIXMLHttpRequest);
 	}
 	
 	function setAsync(value){
