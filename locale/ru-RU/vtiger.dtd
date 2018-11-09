@@ -1,60 +1,60 @@
 <!-- Translation made by Eugene Babiy eugene.babiy@gmail.com-->
 <!-- Main Toolbar Overlay -->
 <!ENTITY vtiger.tb.btn.lbl.AddMsgTovtiger "Добавить Сообщение">
-<!ENTITY vtiger.tb.btn.AddMsgTovtiger.tt "Добавить выбранные сообщение в VtigerCRM">
+<!ENTITY vtiger.tb.btn.AddMsgTovtiger.tt "Добавить выбранные сообщение в coreBOSCRM">
 <!ENTITY vtiger.tb.btn.lbl.CreateLeadContact "Новая Зацепка/Контакт">
-<!ENTITY vtiger.tb.btn.CreateLeadContact.tt "Создать новую Зацепку или Контакт в VtigerCRM">
+<!ENTITY vtiger.tb.btn.CreateLeadContact.tt "Создать новую Зацепку или Контакт в coreBOSCRM">
 
 <!-- Tabbar Overlay -->
-<!ENTITY vtiger.tb.btn.Openvtiger.tt "Открыть VtigerCRM во вкладке">
+<!ENTITY vtiger.tb.btn.Openvtiger.tt "Открыть coreBOSCRM во вкладке">
 
 <!-- Tools Menu Overlay -->
-<!ENTITY vtiger.tool.menu.lbl.config "Параметры VtigerCRM...">
+<!ENTITY vtiger.tool.menu.lbl.config "Параметры coreBOSCRM...">
 <!ENTITY vtiger.tool.menu.acckey.config "v">
-<!ENTITY vtiger.tool.menu.lbl.add "Добавить сообщение в VtigerCRM...">
+<!ENTITY vtiger.tool.menu.lbl.add "Добавить сообщение в coreBOSCRM...">
 <!ENTITY vtiger.tool.menu.acckey.add "d">
 <!ENTITY vtiger.tool.menu.lbl.clc "Создать новую Зацепку или Контакт...">
 <!ENTITY vtiger.tool.menu.acckey.clc "c">
 
 <!-- Added to vtiger Column Header -->
-<!ENTITY vtiger.col.hdr.lbl.AddedTovtiger "Добавить в VtigerCRM">
-<!ENTITY vtiger.col.hdr.txt.AddedTovtiger.tt "Click to sort by Added to vtiger">
+<!ENTITY vtiger.col.hdr.lbl.AddedTovtiger "Добавить в coreBOSCRM">
+<!ENTITY vtiger.col.hdr.txt.AddedTovtiger.tt "Click to sort by Added to coreBOS">
 
 <!-- Mail Context Menu Overlay -->
-<!ENTITY vtiger.mcm.menu.lbl.add "Добавить сообщение в VtigerCRM...">
+<!ENTITY vtiger.mcm.menu.lbl.add "Добавить сообщение в coreBOSCRM...">
 <!ENTITY vtiger.mcm.menu.lbl.clc "Создать новую Зацепку или Контакт...">
 
 <!-- Status Bar -->
-<!ENTITY vtiger.sb.pnl.lbl.default "VtigerCRM: Отключено">
-<!ENTITY vtiger.sb.pnl.default.tt "Сообщения Статуса VtigerCRM">
+<!ENTITY vtiger.sb.pnl.lbl.default "coreBOSCRM: Отключено">
+<!ENTITY vtiger.sb.pnl.default.tt "Сообщения Статуса coreBOSCRM">
 
 <!-- Settings Dialogue Window -->
-<!ENTITY vtiger.sd.wnd.title "VtigerCRM - Параметры Настроек">
-<!ENTITY vtiger.sd.lbl.main "VtigerCRM - Параметры Настроек">
+<!ENTITY vtiger.sd.wnd.title "coreBOSCRM - Параметры Настроек">
+<!ENTITY vtiger.sd.lbl.main "coreBOSCRM - Параметры Настроек">
 <!ENTITY vtiger.sd.lbl.username "Логин:">
-<!ENTITY vtiger.sd.txt.username.tt "Введите ваш логин в VtigerCRM">
+<!ENTITY vtiger.sd.txt.username.tt "Введите ваш логин в coreBOSCRM">
 <!ENTITY vtiger.sd.lbl.accesskey "Ключ Доступа:">
 <!ENTITY vtiger.sd.txt.accesskey.tt "Введите ваш Ключ Доступа. Вы можете его найти на 'Мои Настройки -> Дополнительные Опции Пользователя'">
 <!ENTITY vtiger.sd.lbl.url "URL:">
-<!ENTITY vtiger.sd.txt.url.tt "Введите главную ссылку, которую вы используете для доступа к VtigerCRM">
-<!ENTITY vtiger.sd.lbl.example "(например, http://en.vtiger.com)">
+<!ENTITY vtiger.sd.txt.url.tt "Введите главную ссылку, которую вы используете для доступа к coreBOSCRM">
+<!ENTITY vtiger.sd.lbl.example "(например, http://en.corebos.com)">
 <!ENTITY vtiger.sd.btn.save "Сохранить">
-<!ENTITY vtiger.sd.btn.save.tt "Сохраните ваши данные и войдите в VtigerCRM">
+<!ENTITY vtiger.sd.btn.save.tt "Сохраните ваши данные и войдите в coreBOSCRM">
 <!ENTITY vtiger.sd.btn.cancel "Отмена">
 <!ENTITY vtiger.sd.btn.cancel.tt "Закройте это окно не сохраняя ваши изменения">
 
 <!-- Add Message Dialogue Window -->
-<!ENTITY vtiger.am.wnd.title "Добавить сообщение в VtigerCRM">
+<!ENTITY vtiger.am.wnd.title "Добавить сообщение в coreBOSCRM">
 <!ENTITY vtiger.am.tab.lbl.add "Добавить Сообщение">
 <!ENTITY vtiger.am.tab.lbl.edit "Изменить Сообщение">
 <!ENTITY vtiger.am.cap.lbl.subject "Т">
 <!ENTITY vtiger.am.txt.subject.tt "Тема Сообщения. Можете изменить если надо"> 
 <!ENTITY vtiger.am.cap.lbl.search "Выберите модуль для поиска">
 <!ENTITY vtiger.am.radio.lbl.contacts "Контакты">
-<!ENTITY vtiger.am.radio.contacts.tt "Выберите для поиска в Контактах VtigerCRM">
+<!ENTITY vtiger.am.radio.contacts.tt "Выберите для поиска в Контактах coreBOSCRM">
 <!ENTITY vtiger.am.radio.lbl.leads "Зацепки">
-<!ENTITY vtiger.am.radio.leads.tt "Виберите для поиска в Зацепках VtigerCRM">
-<!ENTITY vtiger.am.txt.search.tt "Адрес e-mail или имя для поиска в VtigerCRM">
+<!ENTITY vtiger.am.radio.leads.tt "Виберите для поиска в Зацепках coreBOSCRM">
+<!ENTITY vtiger.am.txt.search.tt "Адрес e-mail или имя для поиска в coreBOSCRM">
 <!ENTITY vtiger.am.btn.lbl.search "Поиск">
 <!ENTITY vtiger.am.lst.cap.lbl.select "Выберите запись для ассоциации с данным сообщением">
 <!ENTITY vtiger.am.lst.hdr.lbl.type "Тип">
@@ -62,53 +62,53 @@
 <!ENTITY vtiger.am.lst.hdr.lbl.co "Компания">
 <!ENTITY vtiger.am.lst.hdr.lbl.email "Адрес E-mail">
 <!ENTITY vtiger.am.txt.msg.tt "Содержимое сообщения. Можете изменить если надо">
-<!ENTITY vtiger.am.btn.lbl.add "Добавить в VtigerCRM">
+<!ENTITY vtiger.am.btn.lbl.add "Добавить в coreBOSCRM">
 <!ENTITY vtiger.am.btn.add.tt "Сохранить это сообщение к выбранному Контакту/Зацепке">
 <!ENTITY vtiger.am.btn.lbl.cancel "Отмена">
-<!ENTITY vtiger.am.btn.cancel.tt "Закрыть это окно не сохраняя сообщение в VtigerCRM">
+<!ENTITY vtiger.am.btn.cancel.tt "Закрыть это окно не сохраняя сообщение в coreBOSCRM">
 
 <!-- Address Book Toolbar -->
 <!ENTITY vtiger.abtb.btn.lbl.impcon "Импорт Контактов">
-<!ENTITY vtiger.abtb.btn.tt.impcon "Импорт Контактов из VtigerCRM">
+<!ENTITY vtiger.abtb.btn.tt.impcon "Импорт Контактов из coreBOSCRM">
 <!ENTITY vtiger.abtb.btn.lbl.expcon "Экспорт Контактов">
-<!ENTITY vtiger.abtb.btn.tt.expcon "Экспорт Контактов в VtigerCRM">
+<!ENTITY vtiger.abtb.btn.tt.expcon "Экспорт Контактов в coreBOSCRM">
 <!ENTITY vtiger.abtb.btn.lbl.addcon "Добавить как Контакт">
-<!ENTITY vtiger.abtb.btn.tt.addcon "Добавить Контакт(ы) в VtigerCRM">
+<!ENTITY vtiger.abtb.btn.tt.addcon "Добавить Контакт(ы) в coreBOSCRM">
 <!ENTITY vtiger.abtb.btn.lbl.addlead "Добавить как Зацепку">
-<!ENTITY vtiger.abtb.btn.tt.addlead "Добавить Зацепку(и) в VtigerCRM">
+<!ENTITY vtiger.abtb.btn.tt.addlead "Добавить Зацепку(и) в coreBOSCRM">
 
 <!-- Address Book Menu -->
-<!ENTITY vtiger.ab.menu.lbl.import "Импорт из VtigerCRM...">
+<!ENTITY vtiger.ab.menu.lbl.import "Импорт из coreBOSCRM...">
 <!ENTITY vtiger.ab.menu.acckey.import "p">
-<!ENTITY vtiger.ab.menu.lbl.export "Экспорт в VtigerCRM...">
+<!ENTITY vtiger.ab.menu.lbl.export "Экспорт в coreBOSCRM...">
 <!ENTITY vtiger.ab.menu.acckey.export "x">
 
 <!-- Import Address Book Dialogue Window -->
-<!ENTITY vtiger.impab.wnd.title "Импорт из VtigerCRM">
-<!ENTITY vtiger.impab.lbl.main "Импорт Контактов из VtigerCRM">
+<!ENTITY vtiger.impab.wnd.title "Импорт из coreBOSCRM">
+<!ENTITY vtiger.impab.lbl.main "Импорт Контактов из coreBOSCRM">
 <!ENTITY vtiger.impab.lbl.target "Выберите целевую Адресную Книгу:">
 <!ENTITY vtiger.impab.mnulist.tt "Выберите существующую Адресную Книгу или создайте новую">  
 <!ENTITY vtiger.impab.prog.lbl.impcon "Импорт Контактов...">
 <!ENTITY vtiger.impab.btn.lbl.impcon "Импорт">
-<!ENTITY vtiger.impab.btn.tt.impcon "Импорт ваших Контактов из VtigerCRM в выбранную Адресную Книгу">
+<!ENTITY vtiger.impab.btn.tt.impcon "Импорт ваших Контактов из coreBOSCRM в выбранную Адресную Книгу">
 <!ENTITY vtiger.impab.btn.lbl.cancel "Отмена">
 <!ENTITY vtiger.impab.btn.tt.cancel "Отмена импорта и закрытие этого окна">
 
 <!-- Export Address Book Dialogue Window -->
-<!ENTITY vtiger.expab.wnd.title "Экспорт в VtigerCRM">
-<!ENTITY vtiger.expab.lbl.main "Экспорт Контактов в VtigerCRM">
+<!ENTITY vtiger.expab.wnd.title "Экспорт в coreBOSCRM">
+<!ENTITY vtiger.expab.lbl.main "Экспорт Контактов в coreBOSCRM">
 <!ENTITY vtiger.expab.lbl.target "Выберите Адресную Книгу:">
 <!ENTITY vtiger.expab.mnulist.tt "Выберите существующую Адресную Книгу или создайте новую">
 <!ENTITY vtiger.expab.prog.lbl.expcon "Экспорт Контактов...">
 <!ENTITY vtiger.expab.btn.lbl.expcon "Экспорт">
-<!ENTITY vtiger.expab.btn.tt.expcon "Экспорт выбранной Адресной Книги в Контакты вашей VtigerCRM Contacts. Примечание: Название Компании будет упущено если компания не доступна в CRM.">
+<!ENTITY vtiger.expab.btn.tt.expcon "Экспорт выбранной Адресной Книги в Контакты вашей coreBOSCRM Contacts. Примечание: Название Компании будет упущено если компания не доступна в CRM.">
 <!ENTITY vtiger.expab.btn.lbl.cancel "Отмена">
 <!ENTITY vtiger.expab.btn.tt.cancel "Отмена экспорта и закрытие этого окна">
 
 <!-- Preferences Settings Window -->
 <!ENTITY vtiger.vtiger-prefs.wnd.title "Настройка Параметров">
 <!ENTITY vtiger.vtiger-prefs.chkbox.lbl.tagging "Включить Автопометки">
-<!ENTITY vtiger.vtiger-prefs.chkbox.tt.tagging "Выберите чтобы автоматически отмечать сообщения добавленные в VtigerCRM">
+<!ENTITY vtiger.vtiger-prefs.chkbox.tt.tagging "Выберите чтобы автоматически отмечать сообщения добавленные в coreBOSCRM">
 
 <!-- Create New Lead/Contact Window -->
 <!ENTITY vtiger.clc.wnd.title "Создать новую Зацепку или Контакт">
@@ -136,7 +136,7 @@
 <!ENTITY vtiger.clc.lbl.value.acc "Контрагент:">
 <!ENTITY vtiger.clc.txt.acc.tt "Enter some text to search for an account name - Опционально">
 <!ENTITY vtiger.clc.btn.lbl.acc "Найти Контрагента">
-<!ENTITY vtiger.clc.btn.acc.tt "Поиск существующего Контрагента в VtigerCRM">
+<!ENTITY vtiger.clc.btn.acc.tt "Поиск существующего Контрагента в coreBOSCRM">
 <!ENTITY vtiger.clc.lst.hdr.lbl.acc "Название Контрагента">
 <!ENTITY vtiger.clc.lst.acc.tt "Выберите Контрагента с которым ассоциировать этот Контакт">
 <!ENTITY vtiger.clc.btn.lbl.cc "Создать новый Контакт">

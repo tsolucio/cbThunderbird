@@ -12,12 +12,12 @@
 --> 
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">   
 	 <Description about="urn:mozilla:install-manifest">
-        <em:id>vttb3@vtiger.com</em:id>
-        <em:name>vtiger Thunderbird Extension</em:name>
-		<em:version>0.512</em:version>
-        <em:description>vtiger CRM Extension for Thunderbird 3 and beyond</em:description>
+        <em:id>joe@tsolucio.com</em:id>
+        <em:name>coreBOS Thunderbird Extension</em:name>
+		<em:version>0.60</em:version>
+        <em:description>coreBOS Extension for Thunderbird 6 and beyond</em:description>
 		<em:type>2</em:type>
-        <em:creator>vtiger.com</em:creator>
+        <em:creator>tsolucio.com</em:creator>
         <em:contributor>Alan Lord: alan.lord@libertus.co.uk</em:contributor>
         <em:contributor>Carlo Beschi: c.beschi@studiosynthesis.biz</em:contributor>
         <em:contributor>Joe Bordes: joe@tsolucio.com</em:contributor>
@@ -26,7 +26,7 @@
         <em:contributor>Peter Caesar: p.caesar@osmaco.de</em:contributor>
         <em:contributor>Boris CLEMENT: boris@abo-s.com</em:contributor>
 		<em:iconURL>chrome://vtiger/skin/vtiger32.png</em:iconURL>
-        <em:homepageURL>http://www.vtiger.com</em:homepageURL>
+        <em:homepageURL>http://www.corebos.org</em:homepageURL>
         <em:targetApplication><!-- Mozilla Thunderbird -->
             <Description>
                 <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>

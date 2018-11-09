@@ -21,11 +21,11 @@
 
   <!-- package information -->
   <RDF:Description about="urn:mozilla:package:vtiger"
-        chrome:author="vtiger"
-        chrome:authorURL="http://www.vtiger.com/"
-        chrome:description="vtigerCRM Extension for Mozilla Thunderbird." 
-        chrome:displayName="vtigerCRM"
-        chrome:name="vtiger"
+        chrome:author="corebos"
+        chrome:authorURL="http://www.corebos.org/"
+        chrome:description="coreBOS Extension for Mozilla Thunderbird."
+        chrome:displayName="coreBOS"
+        chrome:name="corebos"
         chrome:extension="true"
 	    chrome:settingsURL="chrome://vtiger/content/settings.xul">
   </RDF:Description>

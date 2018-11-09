@@ -159,7 +159,7 @@ function notify(msg, title, icon) {
 		return;
 	}
 	if (title === undefined || title == "") {
-		title = "vtiger CRM";
+		title = "coreBOS CRM";
 	}
 	if (icon === undefined || icon == "") {
 		icon = "chrome://vtiger/skin/vtiger32.png";

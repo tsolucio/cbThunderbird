@@ -1,5 +1,9 @@
-vtiger Thunderbird 3 extension - Changelog
+coreBOS Thunderbird 6 extension - Changelog
 ------------------------------------------
+0.60
+2018-11-01
+Make compatible with TB 6 and change naming to coreBOS
+
 0.510
 2013-09-19
 Fixes to support new version of Thunderbird 24.0
@@ -96,8 +100,8 @@ vtiger should be opened in your default web browser. This is not perfect and
 I expect some features of the vtiger UI to not work. It's more of a "proof of
 concept" for some future ideas but I have found it somewhat useful even so.
 
-Please report your feedback and comments to the project's home on the vtiger
-forge: http://forge.vtiger.com/projects/vttb3/
+Please report your feedback and comments to the project's home on github: 
+https://github.com/tsolucio/cbThunderbird
 
 * Improved the way the search box is populated in the Add Message to vtiger
   dialogue.

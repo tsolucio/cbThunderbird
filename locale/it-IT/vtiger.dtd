@@ -1,59 +1,59 @@
 <!-- Main Toolbar Overlay -->
-<!ENTITY vtiger.tb.btn.lbl.AddMsgTovtiger "Aggiungi a vtiger">
-<!ENTITY vtiger.tb.btn.AddMsgTovtiger.tt "ToolTip per il bottone Aggiungi a vtiger">
+<!ENTITY vtiger.tb.btn.lbl.AddMsgTovtiger "Aggiungi a coreBOS">
+<!ENTITY vtiger.tb.btn.AddMsgTovtiger.tt "ToolTip per il bottone Aggiungi a coreBOS">
 <!ENTITY vtiger.tb.btn.lbl.CreateLeadContact "Nuovo Lead/Contatto">
-<!ENTITY vtiger.tb.btn.CreateLeadContact.tt "Crea un nuovo Lead o Contatto in vtiger">
+<!ENTITY vtiger.tb.btn.CreateLeadContact.tt "Crea un nuovo Lead o Contatto in coreBOS">
 
 <!-- Tabbar Overlay -->
-<!ENTITY vtiger.tb.btn.Openvtiger.tt "Apri vtiger in una scheda">
+<!ENTITY vtiger.tb.btn.Openvtiger.tt "Apri coreBOS in una scheda">
 
 <!-- Tools Menu Overlay -->
-<!ENTITY vtiger.tool.menu.lbl.config "Configurazione di vtiger CRM ...">
+<!ENTITY vtiger.tool.menu.lbl.config "Configurazione di coreBOS CRM ...">
 <!ENTITY vtiger.tool.menu.acckey.config "v">
-<!ENTITY vtiger.tool.menu.lbl.add "Aggiungi Messaggio a vtiger CRM...">
+<!ENTITY vtiger.tool.menu.lbl.add "Aggiungi Messaggio a coreBOS CRM...">
 <!ENTITY vtiger.tool.menu.acckey.add "d">
 <!ENTITY vtiger.tool.menu.lbl.clc "Crea un nuovo Lead o Contatto...">
 <!ENTITY vtiger.tool.menu.acckey.clc "c">
 
 <!-- Added to vtiger Column Header -->
-<!ENTITY vtiger.col.hdr.lbl.AddedTovtiger "Aggiunto a vtiger CRM">
-<!ENTITY vtiger.col.hdr.txt.AddedTovtiger.tt "Clicca per ordinare per Aggiunto a vtiger">
+<!ENTITY vtiger.col.hdr.lbl.AddedTovtiger "Aggiunto a coreBOS CRM">
+<!ENTITY vtiger.col.hdr.txt.AddedTovtiger.tt "Clicca per ordinare per Aggiunto a coreBOS">
 
 <!-- Mail Context Menu Overlay -->
-<!ENTITY vtiger.mcm.menu.lbl.add "Aggiungi Messaggio a vtiger CRM...">
+<!ENTITY vtiger.mcm.menu.lbl.add "Aggiungi Messaggio a coreBOS CRM...">
 <!ENTITY vtiger.mcm.menu.lbl.clc "Crea un nuovo Lead o Contatto...">
 
 <!-- Status Bar -->
-<!ENTITY vtiger.sb.pnl.lbl.default "vtigerCRM: Scollegato">
-<!ENTITY vtiger.sb.pnl.default.tt "Messaggio di Status di vtiger CRM">
+<!ENTITY vtiger.sb.pnl.lbl.default "coreBOSCRM: Scollegato">
+<!ENTITY vtiger.sb.pnl.default.tt "Messaggio di Status di coreBOS CRM">
 
 <!-- Settings Dialogue Window -->
-<!ENTITY vtiger.sd.wnd.title "vtigerCRM - Configurazione">
-<!ENTITY vtiger.sd.lbl.main "vtigerCRM - Configurazione">
+<!ENTITY vtiger.sd.wnd.title "coreBOSCRM - Configurazione">
+<!ENTITY vtiger.sd.lbl.main "coreBOSCRM - Configurazione">
 <!ENTITY vtiger.sd.lbl.username "Username:">
-<!ENTITY vtiger.sd.txt.username.tt "Il tuo nome utente in vtiger">
+<!ENTITY vtiger.sd.txt.username.tt "Il tuo nome utente in coreBOS">
 <!ENTITY vtiger.sd.lbl.accesskey "Access Key:">
 <!ENTITY vtiger.sd.txt.accesskey.tt "Inserisci la tua Access Key. La puoi trovare in 'Mie Preferenze -> Opzioni Avanzate'">
 <!ENTITY vtiger.sd.lbl.url "URL:">
-<!ENTITY vtiger.sd.txt.url.tt "Inserisci l'URL che usi per accedere alla tua installazione di vtiger CRM">
-<!ENTITY vtiger.sd.lbl.example "(es., http://en.vtiger.com)">
+<!ENTITY vtiger.sd.txt.url.tt "Inserisci l'URL che usi per accedere alla tua installazione di coreBOS CRM">
+<!ENTITY vtiger.sd.lbl.example "(es., http://en.corebos.com)">
 <!ENTITY vtiger.sd.btn.save "Salva">
-<!ENTITY vtiger.sd.btn.save.tt "Salva i dati e fai login in vtiger">
+<!ENTITY vtiger.sd.btn.save.tt "Salva i dati e fai login in coreBOS">
 <!ENTITY vtiger.sd.btn.cancel "Cancella">
 <!ENTITY vtiger.sd.btn.cancel.tt "Chiudi questa finestra senza salvare le modifiche">
 
 <!-- Add Message Dialogue Window -->
-<!ENTITY vtiger.am.wnd.title "Aggiungi Messaggio a vtiger CRM">
+<!ENTITY vtiger.am.wnd.title "Aggiungi Messaggio a coreBOS CRM">
 <!ENTITY vtiger.am.tab.lbl.add "Aggiungi Messaggio">
 <!ENTITY vtiger.am.tab.lbl.edit "Modifica Messaggio">
 <!ENTITY vtiger.am.cap.lbl.subject "Oggetto">
 <!ENTITY vtiger.am.txt.subject.tt "L'oggetto del Messaggio. Può essere modificato, se si desidera"> 
 <!ENTITY vtiger.am.cap.lbl.search "Seleziona un modulo in cui cercare">
 <!ENTITY vtiger.am.radio.lbl.contacts "Contatti">
-<!ENTITY vtiger.am.radio.contacts.tt "Sceglilo per cercare tra i tuoi Contatti di vtiger">
+<!ENTITY vtiger.am.radio.contacts.tt "Sceglilo per cercare tra i tuoi Contatti di coreBOS">
 <!ENTITY vtiger.am.radio.lbl.leads "Lead">
-<!ENTITY vtiger.am.radio.leads.tt "Sceglilo per cercare tra i tuoi Lead di vtiger">
-<!ENTITY vtiger.am.txt.search.tt "Email o nome da cercare in vtiger">
+<!ENTITY vtiger.am.radio.leads.tt "Sceglilo per cercare tra i tuoi Lead di coreBOS">
+<!ENTITY vtiger.am.txt.search.tt "Email o nome da cercare in coreBOS">
 <!ENTITY vtiger.am.btn.lbl.search "Cerca">
 <!ENTITY vtiger.am.lst.cap.lbl.select "Seleziona una entità da associare a questo messaggio">
 <!ENTITY vtiger.am.lst.hdr.lbl.type "Tipo">
@@ -61,53 +61,53 @@
 <!ENTITY vtiger.am.lst.hdr.lbl.co "Azienda">
 <!ENTITY vtiger.am.lst.hdr.lbl.email "Indirizzo Email">
 <!ENTITY vtiger.am.txt.msg.tt "Il contenuto del messaggio. Può essere modificato, se si desidera">
-<!ENTITY vtiger.am.btn.lbl.add "Aggiungi a vtiger CRM">
+<!ENTITY vtiger.am.btn.lbl.add "Aggiungi a coreBOS CRM">
 <!ENTITY vtiger.am.btn.add.tt "Salva questo messaggio con il Contatto o Lead selezionato">
 <!ENTITY vtiger.am.btn.lbl.cancel "Cancella">
-<!ENTITY vtiger.am.btn.cancel.tt "Chiudi questa finestra senza salvare il messaggio in vtiger">
+<!ENTITY vtiger.am.btn.cancel.tt "Chiudi questa finestra senza salvare il messaggio in coreBOS">
 
 <!-- Address Book Toolbar -->
 <!ENTITY vtiger.abtb.btn.lbl.impcon "Importa Contatti">
-<!ENTITY vtiger.abtb.btn.tt.impcon "Importa Contatti da vtiger CRM">
+<!ENTITY vtiger.abtb.btn.tt.impcon "Importa Contatti da coreBOS CRM">
 <!ENTITY vtiger.abtb.btn.lbl.expcon "Esporta Contatti">
-<!ENTITY vtiger.abtb.btn.tt.expcon "Esporta Contatti in vtiger CRM">
+<!ENTITY vtiger.abtb.btn.tt.expcon "Esporta Contatti in coreBOS CRM">
 <!ENTITY vtiger.abtb.btn.lbl.addcon "Aggiungi come Contatto">
-<!ENTITY vtiger.abtb.btn.tt.addcon "Aggiungi Contatto(i) a vtiger CRM">
+<!ENTITY vtiger.abtb.btn.tt.addcon "Aggiungi Contatto(i) a coreBOS CRM">
 <!ENTITY vtiger.abtb.btn.lbl.addlead "Aggiungi come Lead">
-<!ENTITY vtiger.abtb.btn.tt.addlead "Aggiungi Lead(s) a vtiger CRM">
+<!ENTITY vtiger.abtb.btn.tt.addlead "Aggiungi Lead(s) a coreBOS CRM">
 
 <!-- Address Book Menu -->
-<!ENTITY vtiger.ab.menu.lbl.import "Importa da vtiger CRM...">
+<!ENTITY vtiger.ab.menu.lbl.import "Importa da coreBOS CRM...">
 <!ENTITY vtiger.ab.menu.acckey.import "p">
-<!ENTITY vtiger.ab.menu.lbl.export "Esporta in vtiger CRM...">
+<!ENTITY vtiger.ab.menu.lbl.export "Esporta in coreBOS CRM...">
 <!ENTITY vtiger.ab.menu.acckey.export "x">
 
 <!-- Import Address Book Dialogue Window -->
-<!ENTITY vtiger.impab.wnd.title "Importa da vtiger CRM">
-<!ENTITY vtiger.impab.lbl.main "Importa Contatti da vtiger CRM">
+<!ENTITY vtiger.impab.wnd.title "Importa da coreBOS CRM">
+<!ENTITY vtiger.impab.lbl.main "Importa Contatti da coreBOS CRM">
 <!ENTITY vtiger.impab.lbl.target "Seleziona la Rubrica di destinazione:">
 <!ENTITY vtiger.impab.mnulist.tt "Seleziona una Rubrica esistente o scrivi/modifica per crearne una nuova">  
 <!ENTITY vtiger.impab.prog.lbl.impcon "Importando i Contatti...">
 <!ENTITY vtiger.impab.btn.lbl.impcon "Importa">
-<!ENTITY vtiger.impab.btn.tt.impcon "Importa i tuoi Contatti di vtiger nella Rubrica selezionata">
+<!ENTITY vtiger.impab.btn.tt.impcon "Importa i tuoi Contatti di coreBOS nella Rubrica selezionata">
 <!ENTITY vtiger.impab.btn.lbl.cancel "Cancella">
 <!ENTITY vtiger.impab.btn.tt.cancel "Cancella l'importazione e chiudi questa finestra">
 
 <!-- Export Address Book Dialogue Window -->
-<!ENTITY vtiger.expab.wnd.title "Esporta in vtiger CRM">
-<!ENTITY vtiger.expab.lbl.main "Esporta Contatti in vtiger CRM">
+<!ENTITY vtiger.expab.wnd.title "Esporta in coreBOS CRM">
+<!ENTITY vtiger.expab.lbl.main "Esporta Contatti in coreBOS CRM">
 <!ENTITY vtiger.expab.lbl.target "Seleziona la Rubrica:">
 <!ENTITY vtiger.expab.mnulist.tt "Seleziona una Rubrica esistente o scrivi/modifica per crearne una nuova">
 <!ENTITY vtiger.expab.prog.lbl.expcon "Esportando i Contatti...">
 <!ENTITY vtiger.expab.btn.lbl.expcon "Esporta">
-<!ENTITY vtiger.expab.btn.tt.expcon "Esporta la Rubrica selezionata nei tuoi Contatti di vtiger. Nota: Le informazioni sul nome Azienda saranno saltate se il nome Azienda non è disponibile nel CRM.">
+<!ENTITY vtiger.expab.btn.tt.expcon "Esporta la Rubrica selezionata nei tuoi Contatti di coreBOS. Nota: Le informazioni sul nome Azienda saranno saltate se il nome Azienda non è disponibile nel CRM.">
 <!ENTITY vtiger.expab.btn.lbl.cancel "Cancella">
 <!ENTITY vtiger.expab.btn.tt.cancel "Cancella l'Esportazione e chiudi questa finestra">
 
 <!-- Preferences Settings Window -->
 <!ENTITY vtiger.vtiger-prefs.wnd.title "Configurazione Preferenze">
 <!ENTITY vtiger.vtiger-prefs.chkbox.lbl.tagging "Abilita l'Auto-Tagging">
-<!ENTITY vtiger.vtiger-prefs.chkbox.tt.tagging "Seleziona questa opzione per taggare automaticamente le email aggiunte a vtiger CRM">
+<!ENTITY vtiger.vtiger-prefs.chkbox.tt.tagging "Seleziona questa opzione per taggare automaticamente le email aggiunte a coreBOS CRM">
 
 <!-- Create New Lead/Contact Window -->
 <!ENTITY vtiger.clc.wnd.title "Crea un Nuovo Lead o Contatto">
@@ -135,7 +135,7 @@
 <!ENTITY vtiger.clc.lbl.value.acc "Azienda:">
 <!ENTITY vtiger.clc.txt.acc.tt "Digita del testo per ricercare un'Azienda - Opzionale">
 <!ENTITY vtiger.clc.btn.lbl.acc "Trova Azienda">
-<!ENTITY vtiger.clc.btn.acc.tt "Cerca un'Azienda già esistente in vtiger">
+<!ENTITY vtiger.clc.btn.acc.tt "Cerca un'Azienda già esistente in coreBOS">
 <!ENTITY vtiger.clc.lst.hdr.lbl.acc "Nome Azienda">
 <!ENTITY vtiger.clc.lst.acc.tt "Seleziona un'Azienda a cui associare il nuovo Contatto">
 <!ENTITY vtiger.clc.btn.lbl.cc "Crea un Nuovo Contatto">
