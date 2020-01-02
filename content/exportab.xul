@@ -9,7 +9,6 @@
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
-*
 ********************************************************************************
 -->
 <!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
@@ -32,20 +31,20 @@
 
 <vbox id="tabbedui" style="margin:7px;">
 	<groupbox flex="1">
- 		<caption label="&vtiger.expab.lbl.main;"/>
-  		<hbox>
-	 		<vbox valign="middle" align="right">
-		 		<label value="&vtiger.expab.lbl.target;" tooltiptext="&vtiger.expab.mnulist.tt;"/>
-	 		</vbox>
+		<caption label="&vtiger.expab.lbl.main;"/>
+		<hbox>
+			<vbox valign="middle" align="right">
+				<label value="&vtiger.expab.lbl.target;" tooltiptext="&vtiger.expab.mnulist.tt;"/>
+			</vbox>
 			<vbox>
 				<menulist id="expablist" editable="false" align="right" tooltiptext="&vtiger.expab.mnulist.tt;">
 					<menupopup id="expopup"></menupopup>
 				</menulist>
 			</vbox>
 			<spacer flex="1"/>
- 		</hbox>
+		</hbox>
 		<hbox>
- 			<spacer flex="1"/>
+			<spacer flex="1"/>
 			<vbox>
 				<label id="lblexpcontacts" hidden="true" value="&vtiger.expab.prog.lbl.expcon;" />
 				<progressmeter id="expprog" mode="determined" value="0" style="margin: 4px;" />
