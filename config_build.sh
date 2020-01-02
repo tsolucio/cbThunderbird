@@ -2,7 +2,7 @@
 # Build config for build.sh
 
 # Get the package version number and remove any whitespace
-VER=`sed -n 's|<em:version>\(.*\)</em:version>|\1|p' install.rdf`
+VER=`sed -n 's| *"version": "\(.*\)",|\1|p' manifest.json`
 VER=${VER//[[:space:]]}
 
 APP_NAME=vttb3-$VER

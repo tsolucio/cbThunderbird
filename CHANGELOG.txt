@@ -144,7 +144,7 @@ Future extension upgrades will be made available via this forge project's
 website location: http://vttb3.forge.vtiger.com/updates/
 No other changes were made to this version.
 
-* Updated install.rdf to enable automatic updates of this extension.
+* Updated manifest.json to enable automatic updates of this extension.
 
 
 0.4.1
@@ -180,7 +180,7 @@ introduced in version 0.3.
   or Leads
 * Merge vtiger team code improvements for:
   * Using the "hidden iframe" technique for HTML email content retrieval
-* Update install.rdf to support TB 3.2+ versions
+* Update manifest.json to support TB 3.2+ versions
 
 
 0.4-testing
@@ -201,7 +201,7 @@ changes made by the vtiger team mainly regarding the session management.
 2010-07-21
 Minor extension update to support the new TB 3.1.1 release.
 
-* Updated install.rdf to support TB 3.1.* versions. 
+* Updated manifest.json to support TB 3.1.* versions. 
 
 
 0.3
@@ -274,7 +274,7 @@ fix which prevented adding leads from addressbook if they had no company name.
 
 * Major i18n work and updates - some strings still require translation.
 * Fixed bug #261 - Thanks Istvan Holbok
-* Updated install.rdf to support all versions of Thunderbird 3 up to and 
+* Updated manifest.json to support all versions of Thunderbird 3 up to and 
   including 3.1.
 
 
@@ -325,7 +325,7 @@ spacing etc.
 Minor release to include support for the recently released Thunderbird 
 3.1beta. All new development will be for this platform (Gecko 1.9.2).
 
-* Updated install.rdf to include support up to and including versions 3.1b2
+* Updated manifest.json to include support up to and including versions 3.1b2
   of Thunderbird.
 
 
