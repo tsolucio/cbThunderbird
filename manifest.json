@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "version": "0.70",
+  "name":"coreBOS Thunderbird Extension",
+  "description":"coreBOS Extension for Thunderbird 6 and beyond",
+  "author":"tsolucio.com",
+  "homepage_url": "http://www.corebos.org",
+
+  "applications": {
+    "gecko": {
+      "id": "joe@tsolucio.com",
+      "strict_min_version": "68.0"
+    }
+  },
+
+  "browser_specific_settings": {
+      "gecko": {
+          "update_url":"http://vttb3.forge.vtiger.com/updates/update.rdf"
+      }
+    },
+  "icons": {
+    "32": "skins/coreBOSicon.png"
+  },
+  "legacy": {
+    "type": "xul",
+    "options": {
+      "page": "chrome://vtiger/content/options.xul",
+      "open_in_tab": true
+    }
+  }
+}
