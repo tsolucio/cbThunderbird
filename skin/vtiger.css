@@ -5,7 +5,6 @@
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
-*
 ******************************************************************************* */
 #vtiger-msg-button, #vtiger-clc-button {
   list-style-image: url("chrome://vtiger/skin/vtiger32.png");
@@ -73,5 +72,5 @@ toolbar[iconsize="small"] #add-lead-button {
 
 /* Image for the Custom Column in the main view */
 .treecol-image#colvtiger  {
-    list-style-image: url("chrome://vtiger/skin/added-to-vtiger20.png");
+  list-style-image: url("chrome://vtiger/skin/added-to-vtiger20.png");
 }
