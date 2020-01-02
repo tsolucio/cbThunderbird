@@ -6,6 +6,12 @@
   "author":"tsolucio.com",
   "homepage_url": "http://www.corebos.org",
 
+  "applications": {
+    "gecko": {
+      "id": "joe@tsolucio.com",
+      "strict_min_version": "68.0"
+    }
+  },
   "browser_specific_settings": {
       "gecko": {
           "update_url":"https://github.com/glorymoshi/cbThunderbird/raw/master/updates/"

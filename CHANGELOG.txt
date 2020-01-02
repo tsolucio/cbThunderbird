@@ -1,5 +1,9 @@
 coreBOS Thunderbird 6 extension - Changelog
 ------------------------------------------
+0.70
+2020-11-01
+Make compatible with TB 6.8 API changes and change naming to coreBOS
+
 0.60
 2018-11-01
 Make compatible with TB 6 and change naming to coreBOS
