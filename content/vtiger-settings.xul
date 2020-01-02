@@ -8,7 +8,6 @@
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
-*
 ********************************************************************************
 -->
 <!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
@@ -29,35 +28,35 @@
 <vbox flex="1" style="margin:5px">
 <groupbox flex="1">
 	<caption label="&vtiger.sd.lbl.main;"/>
-	 <vbox>
+	<vbox>
 		<hbox>
-		  <spacer flex="1"/>
-		  <label value="&vtiger.sd.lbl.username;" style="padding: 0px;margin-top: 3px;" />
-		  <hbox style="width: 25em">
-			 <textbox id="txtusername" flex="1" tooltiptext="&vtiger.sd.txt.username.tt;"/>
-		  </hbox>
+			<spacer flex="1"/>
+			<label value="&vtiger.sd.lbl.username;" style="padding: 0px;margin-top: 3px;" />
+			<hbox style="width: 25em">
+				<textbox id="txtusername" flex="1" tooltiptext="&vtiger.sd.txt.username.tt;"/>
+			</hbox>
 		</hbox>
 		<hbox>
-		  <spacer flex="1"/>
-		  <label value="&vtiger.sd.lbl.accesskey;" style="padding: 0px;margin-top: 3px;" />
-		  <hbox style="width: 25em">
-			 <textbox id="txtpassword" flex="1" type="password" tooltiptext="&vtiger.sd.txt.accesskey.tt;"/>
-		  </hbox>
+			<spacer flex="1"/>
+			<label value="&vtiger.sd.lbl.accesskey;" style="padding: 0px;margin-top: 3px;" />
+			<hbox style="width: 25em">
+				<textbox id="txtpassword" flex="1" type="password" tooltiptext="&vtiger.sd.txt.accesskey.tt;"/>
+			</hbox>
 		</hbox>
 		<hbox>
-		  <spacer flex="1"/>
-		  <label value="&vtiger.sd.lbl.url;" style="padding: 0px;margin-top: 3px;" />
-		  <hbox style="width: 25em">
-			 <textbox id="txturl" flex="1" tooltiptext="&vtiger.sd.txt.url.tt;"/>
-		  </hbox>
+			<spacer flex="1"/>
+			<label value="&vtiger.sd.lbl.url;" style="padding: 0px;margin-top: 3px;" />
+			<hbox style="width: 25em">
+				<textbox id="txturl" flex="1" tooltiptext="&vtiger.sd.txt.url.tt;"/>
+			</hbox>
 		</hbox>
-		<hbox>                 
-		  <spacer flex="1"/>
-		  <hbox style="width: 25em">
+		<hbox>
+			<spacer flex="1"/>
+			<hbox style="width: 25em">
 				<label value="&vtiger.sd.lbl.example;"/>
-		  </hbox>
+			</hbox>
 		</hbox>
-	 </vbox>
+	</vbox>
 </groupbox>
 	<hbox id="commandBar" flex="1" align="right">
 		<hbox>

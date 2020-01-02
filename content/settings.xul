@@ -8,7 +8,6 @@
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
-*
 ********************************************************************************
 -->
 <!DOCTYPE window SYSTEM "chrome://vtiger/content/vtiger.dtd">
@@ -23,18 +22,18 @@
 	<script type="application/x-javascript" src="exUnregisterer.js"/>
 	<script type="application/x-javascript">
 	/* <![CDATA[ */
-		function onUninstall(){
-		
-			if(! confirm("Uninstall this extension?")) return;
+		function onUninstall() {
+			if (!confirm("Uninstall this extension?")) {
+				return;
+			}
 			var unreg = new exUnregisterer('chrome://vtiger/content/contents.rdf');
 			unreg.unregister();
 			unreg.removePrefs('vtiger');
 			window.close();
-			
 		}
 	/* ]]> */
 	</script>
-  <hbox>
-  <button label="Uninstall" oncommand="onUninstall();"/>
-  </hbox>
+	<hbox>
+		<button label="Uninstall" oncommand="onUninstall();"/>
+	</hbox>
 </window>

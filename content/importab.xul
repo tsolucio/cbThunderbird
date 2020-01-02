@@ -9,7 +9,6 @@
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
-*
 ********************************************************************************
 -->
 <!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
@@ -29,25 +28,25 @@
 <script type="application/x-javascript" src="chrome://vtiger/content/vtigercrm_thunderbird.js" />
 <script type="application/x-javascript" src="chrome://vtiger/content/importab.js"/>
 <script type="application/x-javascript" src="chrome://vtiger/content/vtigerab.js"/>
-	
+
 <image src="chrome://vtiger/skin/import_top.png"/>
 
 <vbox id="tabbedui" style="margin:7px;">
 	<groupbox flex="1">
- 		<caption label="&vtiger.impab.lbl.main;"/>
-  		<hbox>
-	 		<vbox valign="middle" align="right">
-		 		<label value="&vtiger.impab.lbl.target;" tooltiptext="&vtiger.impab.mnulist.tt;"/>
-	 		</vbox>
-	 		<vbox>
-		 		<menulist id="impablist" editable="true" tooltiptext="&vtiger.impab.mnulist.tt;">
+		<caption label="&vtiger.impab.lbl.main;"/>
+		<hbox>
+			<vbox valign="middle" align="right">
+				<label value="&vtiger.impab.lbl.target;" tooltiptext="&vtiger.impab.mnulist.tt;"/>
+			</vbox>
+			<vbox>
+				<menulist id="impablist" editable="true" tooltiptext="&vtiger.impab.mnulist.tt;">
 					<menupopup id="impopup" ></menupopup>
-		 		</menulist>
+				</menulist>
 			</vbox>
 			<spacer flex="1"/>
- 		</hbox>
- 		<hbox>
- 			<spacer flex="1"/>
+		</hbox>
+		<hbox>
+			<spacer flex="1"/>
 			<vbox>
 				<label hidden="true" id="lblimpcontacts" value="&vtiger.impab.prog.lbl.impcon;" />
 				<progressmeter id="impprog" mode="determined" value="0" />

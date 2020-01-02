@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://vtiger/skin/vtiger.css" type="text/css"?>
-
 <!--
 *********************************************************************************
 * The contents of this file are subject to the vtiger CRM Public License Version 1.0
@@ -9,7 +8,6 @@
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
-*
 ********************************************************************************
 -->
 <!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
@@ -23,7 +21,6 @@
 <script type="application/x-javascript" src="chrome://vtiger/content/vtigerab.js"/>
 
 <toolbarpalette id="AddressBookToolbarPalette">
-	
 	<toolbarbutton id="import-button" class="toolbarbutton-1" label="&vtiger.abtb.btn.lbl.impcon;"
 		oncommand="return checkContactView_perm();" tooltiptext="&vtiger.abtb.btn.tt.impcon;"/>
 
@@ -48,13 +45,12 @@
 	<menuitem id="add-contact-menu" label="&vtiger.abtb.btn.lbl.addcon;" oncommand="addSelectedContacts();" tooltiptext="&vtiger.abtb.btn.tt.addcon;" />
 	<menuitem id="add-lead-menu" label="&vtiger.abtb.btn.lbl.addlead;" oncommand="addSelectedLeads();" tooltiptext="&vtiger.abtb.btn.tt.addlead;" />
 </popup>
-  
+
 <menu id="tasksMenu">
 	<menupopup id="taskPopup">
 		<menuseparator/>
 		<menuitem id="impmenu" label="&vtiger.ab.menu.lbl.import;"  accesskey="&vtiger.ab.menu.acckey.import;" oncommand="return checkContactView_perm();"/>
 		<menuitem id="expmenu" label="&vtiger.ab.menu.lbl.export;" accesskey="&vtiger.ab.menu.acckey.export;" oncommand="return checkContact_perm();"/>
- </menupopup>
+</menupopup>
 </menu>
-		  
 </overlay>

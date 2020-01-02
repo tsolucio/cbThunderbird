@@ -8,7 +8,6 @@
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
-*
 ******************************************************************************* */
 -->
 <!DOCTYPE overlay SYSTEM "chrome://vtiger/locale/vtiger.dtd">
@@ -18,9 +17,8 @@
 
 	<prefpane id="vtiger-prefs-pane">
 		<preferences>
-		  <preference id="pref_tagging" name="vtiger.Settings.Conf.enableTagging" type="bool"/>
+			<preference id="pref_tagging" name="vtiger.Settings.Conf.enableTagging" type="bool"/>
 		</preferences>
-	 
 	<checkbox id="tagging" preference="pref_tagging" label="&vtiger.vtiger-prefs.chkbox.lbl.tagging;" tooltiptext="&vtiger.vtiger-prefs.chkbox.tt.tagging;"/>
 
 	</prefpane>

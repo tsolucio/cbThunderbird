@@ -8,7 +8,6 @@
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
-*
 ********************************************************************************
 -->
 <!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
@@ -20,37 +19,37 @@
 	<script type="application/x-javascript" src="chrome://vtiger/content/entitieshandler.namespaced.js" />
 	<script type="application/x-javascript" src="chrome://vtiger/content/vtigercrm_thunderbird.js" />
 	<script type="application/x-javascript" src="chrome://vtiger/content/vtiger.js"/>
-	
+
 	<toolbarpalette id="MailToolbarPalette">
 		<toolbarbutton id="vtiger-msg-button" class="toolbarbutton-1" label="&vtiger.tb.btn.lbl.AddMsgTovtiger;" tooltiptext="&vtiger.tb.btn.AddMsgTovtiger.tt;" oncommand="startAddMsg();" />
-		<toolbarbutton id="vtiger-clc-button" class="toolbarbutton-1" label="&vtiger.tb.btn.lbl.CreateLeadContact;" tooltiptext="&vtiger.tb.btn.CreateLeadContact.tt;" oncommand="startCreateLeadContact();" />	
+		<toolbarbutton id="vtiger-clc-button" class="toolbarbutton-1" label="&vtiger.tb.btn.lbl.CreateLeadContact;" tooltiptext="&vtiger.tb.btn.CreateLeadContact.tt;" oncommand="startCreateLeadContact();" />
 	</toolbarpalette>
-	
+
 	<hbox id="tabmail-buttons">
-    	<toolbarbutton id="vtiger-tab-button" oncommand="new_vtiger_tab();" tooltiptext="&vtiger.tb.btn.Openvtiger.tt;"/>
+		<toolbarbutton id="vtiger-tab-button" oncommand="new_vtiger_tab();" tooltiptext="&vtiger.tb.btn.Openvtiger.tt;"/>
 	</hbox>
-	
+
 	<tree id="threadTree">
- 		<treecols id="threadCols">
-  			<splitter class="tree-splitter" />
-  			<treecol id="colvtiger" persist="hidden ordinal width" class="treecol-image" flex="2" label="&vtiger.col.hdr.lbl.AddedTovtiger;" tooltiptext="&vtiger.col.hdr.txt.AddedTovtiger.tt;" />
- 		</treecols>
+		<treecols id="threadCols">
+			<splitter class="tree-splitter" />
+			<treecol id="colvtiger" persist="hidden ordinal width" class="treecol-image" flex="2" label="&vtiger.col.hdr.lbl.AddedTovtiger;" tooltiptext="&vtiger.col.hdr.txt.AddedTovtiger.tt;" />
+		</treecols>
 	</tree>
-	
+
 	<menupopup id="taskPopup">
 		<menuseparator id="vtiger_menu_seperator" />
 		<menuitem id="vt_config_menu" label="&vtiger.tool.menu.lbl.config;" accesskey="&vtiger.tool.menu.acckey.config;" oncommand="window.openDialog('chrome://vtiger/content/vtiger-settings.xul','','chrome,resizable=no,titlebar,modal,centerscreen');checkUserLoginSelection();" />
 		<menuitem id="vt_add" label="&vtiger.tool.menu.lbl.add;" accesskey="&vtiger.tool.menu.acckey.add;" oncommand="startAddMsg();" />
-		<menuitem id="vt_clc" label="&vtiger.tool.menu.lbl.clc;" accesskey="&vtiger.tool.menu.acckey.clc;" oncommand="startCreateLeadContact();" />		
+		<menuitem id="vt_clc" label="&vtiger.tool.menu.lbl.clc;" accesskey="&vtiger.tool.menu.acckey.clc;" oncommand="startCreateLeadContact();" />
 	</menupopup>
-	
+
 	<popup id="mailContext">
 		<menuitem id="vt_addMail" label="&vtiger.mcm.menu.lbl.add;" oncommand="startAddMsg();" />
-		<menuitem id="vt_clcMail" label="&vtiger.mcm.menu.lbl.clc;" oncommand="startCreateLeadContact();" />		
+		<menuitem id="vt_clcMail" label="&vtiger.mcm.menu.lbl.clc;" oncommand="startCreateLeadContact();" />
 	</popup>
 	
 	<popup id="emailAddressPopup">
 		<menuitem id="vt_clcMailHdr" label="&vtiger.mcm.menu.lbl.clc;" oncommand="createLeadContact();" />
 	</popup>
-	
+
 </overlay>

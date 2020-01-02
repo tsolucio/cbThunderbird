@@ -10,7 +10,6 @@
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
-*
 ********************************************************************************
 -->
 <!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
@@ -18,7 +17,7 @@
 	title="&vtiger.am.wnd.title;"
 	id="addmsgtovtigercrm"
 	onload="vget_mailfrmaddrs();">
-	
+
 <script type="application/x-javascript" src="chrome://vtiger/content/md5.js" />
 <script type="application/x-javascript" src="chrome://vtiger/content/json.js" />
 <script type="application/x-javascript" src="chrome://vtiger/content/entitieshandler.namespaced.js" />
@@ -27,22 +26,22 @@
 <script type="application/x-javascript" src="chrome://vtiger/content/addtovtiger.js" />
 
 <!-- <script type="application/x-javascript" src="chrome://vtiger/content/sort.js" /> -->
-	
+
 <image src="chrome://vtiger/skin/email_add.png"/>
 
 <vbox>
 	<vbox id="tabbedui" style="margin:7px;">
 		<tabbox>
-	    	<tabs id="abTabs">
-	        	<tab label="&vtiger.am.tab.lbl.add;"/>
-	        	<tab label="&vtiger.am.tab.lbl.edit;"/>
-	        </tabs>
+			<tabs id="abTabs">
+				<tab label="&vtiger.am.tab.lbl.add;"/>
+				<tab label="&vtiger.am.tab.lbl.edit;"/>
+			</tabs>
 			<groupbox flex="1">
 				<caption label="&vtiger.am.cap.lbl.subject;"/>
 				<vbox>
 					<textbox style="width:20em;" align="left" id="txtsubject" tooltiptext="&vtiger.am.txt.subject.tt;"/>
 				</vbox>
-	        </groupbox>
+			</groupbox>
 			<tabpanels id="abTabPanels" flex="1">
 				<!--  Add Message Tab -->
 				<vbox flex="1">
@@ -56,14 +55,14 @@
 								<vbox>
 									<radio id="Leads" label="&vtiger.am.radio.lbl.leads;" tooltiptext="&vtiger.am.radio.leads.tt;"/>
 								</vbox>
-				  			</hbox>
+							</hbox>
 							<hbox>
 								<vbox>
 									<textbox id="txtemailid" align="left" tooltiptext="&vtiger.am.txt.search.tt;" style="width:20em;"/>
 								</vbox>
-						 		<vbox>
+								<vbox>
 									<button style="width: 15em;" label="&vtiger.am.btn.lbl.search;"  oncommand="bget_RcdBySearch();"/>
-						 		</vbox>
+								</vbox>
 							</hbox>
 						</radiogroup>
 					</groupbox>

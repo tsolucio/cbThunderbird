@@ -9,7 +9,6 @@
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
-*
 ********************************************************************************
 -->
 <!DOCTYPE window SYSTEM "chrome://vtiger/locale/vtiger.dtd">
@@ -17,23 +16,23 @@
 	title="&vtiger.clc.wnd.title;"
 	id="createleadcontact"
 	onload="populateFields();">
-	
+
 <script type="application/x-javascript" src="chrome://vtiger/content/md5.js" />
 <script type="application/x-javascript" src="chrome://vtiger/content/json.js" />
 <script type="application/x-javascript" src="chrome://vtiger/content/entitieshandler.namespaced.js" />
 <script type="application/x-javascript" src="chrome://vtiger/content/vtiger_lib.js" />
 <script type="application/x-javascript" src="chrome://vtiger/content/vtigercrm_thunderbird.js" />
 <script type="application/x-javascript" src="chrome://vtiger/content/createNewLeadContact.js" />
-	
+
 <image src="chrome://vtiger/skin/email_add.png"/>
 
 <vbox>
 	<vbox id="clcTabbedui" style="margin:7px;">
 		<tabbox>
-	    	<tabs id="clcTabs">
-	        	<tab label="&vtiger.clc.tab.lbl.newLead;"/>
-	        	<tab label="&vtiger.clc.tab.lbl.newContact;"/>
-	        </tabs>
+			<tabs id="clcTabs">
+				<tab label="&vtiger.clc.tab.lbl.newLead;"/>
+				<tab label="&vtiger.clc.tab.lbl.newContact;"/>
+			</tabs>
 			<groupbox flex="1">
 				<caption label="&vtiger.clc.cap.lbl.commonFields;"/>
 				<hbox>
@@ -62,7 +61,7 @@
 						<textbox align="left" id="clcNotes" multiline="true" rows="4" tooltiptext="&vtiger.clc.txt.notes.tt;"/>
 					</vbox>
 				</hbox>
-	        </groupbox>
+			</groupbox>
 			<tabpanels id="clcTabPanels" flex="1">
 				<!--  New Lead Tab -->
 				<vbox flex="1">
